@@ -3,8 +3,8 @@ import "aos/dist/aos.css";
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
-
+// import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
+import { RouterProvider, createHashRouter, Outlet } from "react-router-dom";
 
 import "./styles/index.css"; // path must match your file
 
@@ -37,7 +37,7 @@ const App = () => {
   );
 };
 
-const AppRouter = createBrowserRouter([
+const AppRouter = createHashRouter([
   {
     path: "/",
     element: <App />,
