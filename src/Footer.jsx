@@ -40,12 +40,12 @@ const Footer = () => {
 
               <p>
                 <strong>Email:</strong>{" "}
-                <span className="text-blue-800">info@cutm.ac.in</span>
+                <span className="text-blue-800">sudhansu.samal@cutm.ac.in</span>
               </p>
 
               <p>
                 <strong>Contact:</strong>{" "}
-                <span className="text-blue-800">+91-XXXXXXXXXX</span>
+                <span className="text-blue-800">+91-9778118876</span>
               </p>
 
               <p>
@@ -73,21 +73,21 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-3 text-[13px]">
-              <li className="flex items-center gap-2">
+              {/* <li className="flex items-center gap-2">
                 <span className="text-orange-500 text-sm">✔</span>
                 IEEE Power Electronics Society (PELS)
-              </li>
-              <li className="flex items-center gap-2">
+              </li> */}
+              {/* <li className="flex items-center gap-2">
                 <span className="text-orange-500 text-sm">✔</span>
                 IEEE Power & Energy Society (PES)
-              </li>
+              </li> */}
               <li className="flex items-center gap-2">
                 <span className="text-orange-500 text-sm">✔</span>
                 IEEE Bhubaneswar Section
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-orange-500 text-sm">✔</span>
-                IEEE Industry Applications Society (IAS)
+                IEEE Computer Society 
               </li>
             </ul>
           </div>

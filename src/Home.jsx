@@ -13,7 +13,7 @@ import rajarani from "../src/assets/rajarani.jpg"
 import zoo from "../src/assets/zoo.jpg"
 import map from "../src/assets/map.jpg"
 import logo from "../src/assets/logo.jpg"
-import logo4 from "../src/assets/logo4.jpg"
+import cs from "../src/assets/cs.jpeg"
 import logo2 from "../src/assets/logo2.jpg"
 import logo5 from "../src/assets/logo5.jpg"
 import logo1 from "../src/assets/logo1.jpg"
@@ -79,25 +79,25 @@ const Home = () => {
 
   // --- MOCK DATA ---
   const schedule = [
-   {
-    title: "Call for Papers Opens",
-    date: "20th January",
+  //  {
+  //   title: "Call for Papers Opens",
+  //   date: "20th January",
+  // },
+  {
+    title: " Submission Deadline",
+    date: "30th Aug",
   },
   {
-    title: "First Submission Deadline",
-    date: "15th February",
+    title: " Acceptance Notification",
+    date: "15th Oct",
   },
+  // {
+  //   title: "Last Submission Deadline",
+  //   date: "17th September",
+  // },
   {
-    title: "First Acceptance Notification",
-    date: "15th July",
-  },
-  {
-    title: "Last Submission Deadline",
-    date: "17th September",
-  },
-  {
-    title: "Final Acceptance Notification",
-    date: "17th September",
+    title: "Registration",
+    date: "10th Nov",
   },
 ];
 
@@ -113,9 +113,10 @@ const Home = () => {
     });
   }, []);
   return (
-    <>
- {/* ================= HERO SECTION ================= */}
-<div className="relative w-full h-screen overflow-hidden">
+    <main className="relative w-full overflow-x-hidden">
+
+{/* ================= HERO SECTION ================= */}
+ <div className="relative w-full h-screen overflow-hidden">
 
   {/* CAROUSEL */}
   <div className="absolute inset-0 z-0">
@@ -142,7 +143,7 @@ const Home = () => {
           data-aos="fade-up" 
           className="inline-block py-1 px-4 rounded-full bg-blue-100 text-blue-900 text-sm font-semibold mb-4 hover:bg-blue-200 transition-colors duration-300"
         >
-          📍 CUTM, BBSR • December 17–19, 2026
+          📍 CUTM, BBSR • December 28-30, 2026
         </span>
 
         {/* Heading */}
@@ -168,11 +169,11 @@ const Home = () => {
       </div>
     </section>
 
-</div>
+ </div>
 
 
       
-<section className="bg-[#E7ECFF] px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-16 pb-16">
+ <section className="bg-[#E7ECFF] px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-16 pb-16">
   <div className="grid grid-cols-2 md:grid-cols-5 gap-8 border-t border-blue-200 pt-12 text-center">
     
     <div className="flex justify-center items-center">
@@ -201,7 +202,7 @@ const Home = () => {
 
     <div className="flex justify-center items-center">
       <img
-        src={logo4}
+        src={cs}
         alt="Logo 4"
         className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
@@ -219,7 +220,7 @@ const Home = () => {
 </section>
 
 
-{/* =========================================conference */}
+{/* =========================================conference======================================= */}
  <section id="aboutconference" className="w-full bg-[#E7ECFF] py-24">
       <div className="max-w-6xl mx-auto px-6">
 
@@ -229,7 +230,7 @@ const Home = () => {
             ABOUT THE CONFERENCE
           </h2>
           <p className="max-w-4xl mx-auto text-lg text-slate-700 leading-relaxed">
-            The International Conference on Sustainability and Cultural Heritage in Digital Construction brings together researchers, engineers, and industry experts to explore innovative digital solutions for a greener and more resilient future.
+          The conference provides a global platform to explore AI-enabled smart solutions for industry, governance, healthcare, and sustainability, fostering innovation in smart grids, Industry 4.0, digital healthcare, and sustainable infrastructure through research, collaboration, and technical excellence.
           </p>
         </div>
 
@@ -249,19 +250,19 @@ const Home = () => {
               <li data-aos="fade-up" data-aos-delay="100" className="flex items-start gap-4">
                 <span className="text-green-600 mt-1 text-2xl">🎯</span>
                 <span className="text-slate-700 text-lg md:text-base">
-                  To integrate sustainability, digital technologies, and intelligent systems across all disciplines of Civil Engineering.
+                  Provides an interdisciplinary platform to showcase AI-enabled innovations addressing challenges in industry, governance, healthcare, and sustainable development.
                 </span>
               </li>
               <li data-aos="fade-up" data-aos-delay="200" className="flex items-start gap-4">
                 <span className="text-blue-600 mt-1 text-2xl">🎯</span>
                 <span className="text-slate-700 text-lg md:text-base">
-                  To promote research, innovation, and industrial partnerships that advance the built environment through responsible and data-driven construction practices.
+                 Focuses on advanced technologies including smart grids, Industry 4.0, robotics, digital healthcare, and AI-driven personalized solutions
                 </span>
               </li>
               <li data-aos="fade-up" data-aos-delay="300" className="flex items-start gap-4">
                 <span className="text-purple-600 mt-1 text-2xl">🎯</span>
                 <span className="text-slate-700 text-lg md:text-base">
-                  To empower researchers, practitioners, and students with emerging knowledge in AIML, BIM, IoT, and green engineering for addressing present and future infrastructure challenges.
+                  Encourages collaboration among researchers, industry experts, and policymakers to enhance technical excellence, real-world impact, and regional engagement.
                 </span>
               </li>
             </ul>
@@ -291,7 +292,7 @@ const Home = () => {
                 Conference Vision
               </h3>
               <p className="text-white text-lg leading-relaxed italic opacity-90 group-hover:opacity-100 transition-opacity duration-500">
-                To be a premier global platform fostering innovation, collaboration, and knowledge exchange in sustainable and digital construction.
+                Advancing AI-driven smart solutions for industry, governance, healthcare, and sustainable development through innovation, resilience, and regional collaboration
               </p>
             </div>
           </div>
@@ -304,18 +305,14 @@ const Home = () => {
 
 
     {/* ================= Venue & Heritage Section ================= */}
-<section
+
+ <section
   className="relative pt-8 pb-20 bg-cover bg-center"
-  style={{
-    backgroundImage:
-      `url(${map})`,
-  }}
->
-  {/* Overlay */}
+  style={{ backgroundImage: `url(${map})` }}
+ >
   <div className="absolute inset-0 bg-[#E7ECFF]/55 backdrop-blur-[1px]" />
 
   <div className="relative z-10">
-    {/* Header */}
     <div className="text-center max-w-3xl mx-auto mb-12 px-4">
       <h2 className="text-4xl font-bold text-blue-900 tracking-wide">
         Venue & Heritage
@@ -326,104 +323,99 @@ const Home = () => {
       </p>
     </div>
 
-    {/* Main layout */}
-   <div className="flex flex-col md:flex-row gap-8 w-full max-w-[1800px] mx-auto px-4">
+    <div className="flex flex-col md:flex-row gap-8 w-full max-w-[1800px] mx-auto px-4">
 
-  {/* Left Side - Conference Venue */}
-  <div className="md:w-1/3 rounded-3xl p-8">
-    <h3 className="text-2xl font-semibold mb-6 text-slate-900">
-      Conference Venue
-    </h3>
+      <div className="md:w-1/3 rounded-3xl p-8">
+        <h3 className="text-2xl font-semibold mb-6 text-slate-900">
+          Conference Venue
+        </h3>
 
-    <div className="flex items-start gap-3 mb-8">
-      <span className="text-blue-700 text-2xl">📍</span>
-      <div>
-        <p className="font-medium text-slate-800">
-          Centurion University of Technology and Management
-        </p>
-        <p className="text-gray-600 text-sm">
-          Bhubaneswar, Odisha, India
-        </p>
-      </div>
-    </div>
-
-    <a
-      href="https://www.google.com/maps/@20.168704,85.7014272,14z"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <button className="inline-flex items-center gap-2 border-2 border-blue-900 text-blue-900 px-6 py-3 rounded-lg hover:bg-blue-900 hover:text-white transition-all duration-300">
-        ➜ Get Directions
-      </button>
-    </a>
-  </div>
-
-  {/* Right Side - Experience the Culture & Heritage */}
-  <div className="md:w-2/3 rounded-3xl p-8 bg-white/80 backdrop-blur-md shadow-xl">
-    <h3 className="text-2xl font-semibold mb-8 text-slate-900">
-      Experience the Culture & Heritage
-    </h3>
-
-   <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-
-      {places.map((place, index) => (
-        <div
-          key={index}
-    className="relative w-full aspect-[6/5] cursor-pointer perspective-1000"
-        >
-          <div
-            className="relative w-full h-full transition-transform duration-700 transform-style-preserve-3d"
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.transform = "rotateY(180deg) scale(1.05)")
-            }
-            onMouseLeave={(e) =>
-              (e.currentTarget.style.transform = "rotateY(0deg) scale(1)")
-            }
-            onClick={(e) =>
-              (e.currentTarget.style.transform =
-                e.currentTarget.style.transform === "rotateY(180deg) scale(1.05)"
-                  ? "rotateY(0deg) scale(1)"
-                  : "rotateY(180deg) scale(1.05)")
-            }
-          >
-            {/* FRONT */}
-            <div
-              className="absolute inset-0 rounded-2xl overflow-hidden shadow-lg"
-              style={{ backfaceVisibility: "hidden" }}
-            >
-              <img
-                src={place.image}
-                alt={place.name}
-                className="absolute inset-0 w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-black/30" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <h4 className="font-semibold text-lg">{place.name}</h4>
-                <p className="text-sm">{place.distance}</p>
-              </div>
-            </div>
-
-            {/* BACK */}
-            <div
-              className="absolute inset-0 rounded-2xl bg-blue-900 text-white p-6 flex items-center justify-center text-center shadow-lg"
-              style={{
-                backfaceVisibility: "hidden",
-                transform: "rotateY(180deg)",
-              }}
-            >
-              <p className="text-sm leading-relaxed">{place.history}</p>
-            </div>
+        <div className="flex items-start gap-3 mb-8">
+          <span className="text-blue-700 text-2xl">📍</span>
+          <div>
+            <p className="font-medium text-slate-800">
+              Centurion University of Technology and Management
+            </p>
+            <p className="text-gray-600 text-sm">
+              Bhubaneswar, Odisha, India
+            </p>
           </div>
         </div>
-      ))}
+
+        <a
+          href="https://www.google.com/maps/@20.168704,85.7014272,14z"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="inline-flex items-center gap-2 border-2 border-blue-900 text-blue-900 px-6 py-3 rounded-lg hover:bg-blue-900 hover:text-white transition-all duration-300">
+            ➜ Get Directions
+          </button>
+        </a>
+      </div>
+
+      <div className="md:w-2/3 rounded-3xl p-8 bg-white/80 backdrop-blur-md shadow-xl">
+        <h3 className="text-2xl font-semibold mb-8 text-slate-900">
+          Experience the Culture & Heritage
+        </h3>
+
+        {/* ✅ FIXED GRID */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+          {places.map((place, index) => (
+            <div
+              key={index}
+              className="relative w-full aspect-[6/5] cursor-pointer perspective-1000"
+            >
+              <div
+                className="relative w-full h-full transition-transform duration-700 transform-style-preserve-3d"
+                onMouseEnter={(e) =>
+                  (e.currentTarget.style.transform = "rotateY(180deg) scale(1.05)")
+                }
+                onMouseLeave={(e) =>
+                  (e.currentTarget.style.transform = "rotateY(0deg) scale(1)")
+                }
+                onClick={(e) =>
+                  (e.currentTarget.style.transform =
+                    e.currentTarget.style.transform === "rotateY(180deg) scale(1.05)"
+                      ? "rotateY(0deg) scale(1)"
+                      : "rotateY(180deg) scale(1.05)")
+                }
+              >
+                <div
+                  className="absolute inset-0 rounded-2xl overflow-hidden shadow-lg"
+                  style={{ backfaceVisibility: "hidden" }}
+                >
+                  <img
+                    src={place.image}
+                    alt={place.name}
+                    className="absolute inset-0 w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black/30" />
+                  <div className="absolute bottom-4 left-4 right-4 text-white">
+                    <h4 className="font-semibold text-lg">{place.name}</h4>
+                    <p className="text-sm">{place.distance}</p>
+                  </div>
+                </div>
+
+                <div
+                  className="absolute inset-0 rounded-2xl bg-blue-900 text-white p-6 flex items-center justify-center text-center shadow-lg"
+                  style={{
+                    backfaceVisibility: "hidden",
+                    transform: "rotateY(180deg)",
+                  }}
+                >
+                  <p className="text-sm leading-relaxed">{place.history}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+
+        </div>
+      </div>
     </div>
   </div>
-</div>
-
-
-
-  </div>
 </section>
+
 
 
 
@@ -431,58 +423,57 @@ const Home = () => {
 {/* ================= End Venue & Heritage ================= */}
 
 
-      {/* ================= SCHEDULE SECTION ================= */}
-     <section
-      id="schedule"
-      className="py-20 bg-[#E7ECFF] border-t border-blue-200"
-    >
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+    {/* ================= SCHEDULE SECTION ================= */}
+<section id="schedule" className="py-16 bg-[#E7ECFF] border-t border-blue-200 overflow-x-hidden">
+  <div className="max-w-4xl mx-auto px-4">
 
-        {/* Header */}
-        <div className="text-center mb-14">
-          <h2 className="text-3xl font-bold text-slate-900">
-            Important Dates
-          </h2>
-          <p className="text-slate-600 mt-2">
-            Paper submission & acceptance milestones
-          </p>
-        </div>
+    <div className="text-center mb-12">
+      <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
+        Important Dates
+      </h2>
+      <p className="text-slate-600 mt-2 text-sm sm:text-base">
+        Paper submission & acceptance milestones
+      </p>
+    </div>
 
-        {/* Timeline */}
-        <div className="relative space-y-8">
-          {/* Vertical Line */}
-          <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-blue-300" />
+    <div className="relative space-y-8">
+      <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-blue-300" />
 
-          {schedule.map((item, idx) => (
-            <div key={idx} className="relative flex gap-6">
-              
-              {/* Date Badge */}
-              <div className="relative z-10 flex-shrink-0">
-                <div className="w-16 h-16 rounded-full bg-blue-600 text-white
-                                flex items-center justify-center text-sm
-                                font-semibold text-center leading-tight shadow">
-                  {item.date}
-                </div>
-              </div>
+      {schedule.map((item, idx) => (
+        <div key={idx} className="relative flex gap-4">
 
-              {/* Card */}
-              <div className="flex-grow p-6 bg-white border border-slate-200
-                              rounded-2xl hover:border-blue-300
-                              hover:shadow-md transition">
-                <h4 className="text-xl font-bold text-slate-900">
-                  {item.title}
-                </h4>
-                <p className="text-sm text-slate-600 mt-2">
-                  Conference Timeline Update
-                </p>
-              </div>
-
+          <div className="z-10">
+            <div className="
+              w-12 h-12
+              sm:w-16 sm:h-16
+              rounded-full
+              bg-blue-600
+              text-white
+              flex items-center justify-center
+              text-xs sm:text-sm
+              font-semibold
+            ">
+              {item.date}
             </div>
-          ))}
+          </div>
+
+          <div className="bg-white rounded-xl p-4 sm:p-6 shadow w-full">
+            <h4 className="font-bold text-base sm:text-lg">
+              {item.title}
+            </h4>
+            <p className="text-xs sm:text-sm text-slate-600 mt-1">
+              Conference Timeline Update
+            </p>
+          </div>
+
         </div>
-      </div>
-    </section>
-    </>
+      ))}
+    </div>
+  </div>
+</section>
+
+    </main>
   );
 };
 

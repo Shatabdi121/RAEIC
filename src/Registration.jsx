@@ -4,7 +4,7 @@ const Registration = () => {
 
  
   return (
-    <>
+    <main className="relative w-full overflow-x-hidden">
     <section className="relative w-full mt-20 h-[220px] overflow-hidden rounded-2xl">
 
       {/* 🔁 BACKGROUND CAROUSEL */}
@@ -45,7 +45,7 @@ const Registration = () => {
 
    <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between gap-4 mb-6">
 <a 
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdkxZX9ZvbcFF6qJZI9q8aIhpDAYVyoc_hTBNohpPVXqmGv_g/viewform" 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSctfMkpONaUEJy2flimqaK1KXtDLm2KwXmWvqm9IBlujyERHw/viewform?usp=header" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -54,7 +54,7 @@ const Registration = () => {
         </button>
         </a>
 <a 
-  href="https://docs.google.com/forms/d/e/1FAIpQLSfiYbioko_HhwsDQb3ibeQj4Anajz4VYJMjsI1kWCfZBz-8YQ/viewform" 
+  href="https://docs.google.com/forms/d/e/1FAIpQLSebhhzaq8m5mstHLOyQdiE4gA0dfYEXHd1wgngptwdia-t1gQ/viewform?usp=header" 
   target="_blank" 
   rel="noopener noreferrer"
 >
@@ -161,7 +161,7 @@ const Registration = () => {
     <li>
       After completing the payment, authors must fill out the Google Form at{" "}
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSdkxZX9ZvbcFF6qJZI9q8aIhpDAYVyoc_hTBNohpPVXqmGv_g/viewform"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSctfMkpONaUEJy2flimqaK1KXtDLm2KwXmWvqm9IBlujyERHw/viewform?usp=header"
         target="_blank"
         rel="noreferrer"
         className="text-blue-600 font-medium no-underline"
@@ -176,7 +176,7 @@ const Registration = () => {
       conference, please register as an attendee by paying the applicable fee
       and filling out the attendee registration form at{" "}
       <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfiYbioko_HhwsDQb3ibeQj4Anajz4VYJMjsI1kWCfZBz-8YQ/viewform"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSebhhzaq8m5mstHLOyQdiE4gA0dfYEXHd1wgngptwdia-t1gQ/viewform?usp=header"
         target="_blank"
         rel="noreferrer"
         className="text-blue-600 font-medium no-underline"
@@ -206,7 +206,7 @@ const Registration = () => {
     {/* 🏦 Bank Account Details */}
 
     
-    </>
+    </main>
   )
 }
 
