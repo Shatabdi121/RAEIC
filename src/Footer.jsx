@@ -32,7 +32,7 @@ const Footer = () => {
               <p className="flex gap-2">
                 <span className="text-orange-500 text-base">📍</span>
                 <span>
-                  <strong>Dept. of Electrical Engineering</strong><br />
+                  <strong>School of Enginnering and Technology</strong><br />
                   Centurion University of Technology and Management (CUTM)<br />
                   Jatani, Bhubaneswar, Odisha – 752050
                 </span>
