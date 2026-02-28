@@ -85,7 +85,10 @@ const Footer = () => {
                 <span className="text-orange-500 text-sm">✔</span>
                 IEEE Bhubaneswar Section
               </li>
-              
+              <li className="flex items-center gap-2">
+                <span className="text-orange-500 text-sm">✔</span>
+                IEEE COMPUTER SOCIETY CHAPTER (CH11163)
+              </li>
             </ul>
           </div>
 
