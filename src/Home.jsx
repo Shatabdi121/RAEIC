@@ -15,8 +15,9 @@ import map from "../src/assets/map.jpg"
 import logo from "../src/assets/logo.jpg"
 import cs from "../src/assets/cs.jpeg"
 import logo2 from "../src/assets/logo2.jpg"
-import logo5 from "../src/assets/logo5.jpg"
 import logo1 from "../src/assets/logo1.jpg"
+import logo6 from "../src/assets/logo6.jpeg"
+import logo7 from "../src/assets/logo7.jpeg"
 import conf from "../src/assets/conf.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -202,16 +203,16 @@ const Home = () => {
 
     <div className="flex justify-center items-center">
       <img
-        src={cs}
-        alt="Logo 4"
+        src={logo6}
+        alt="Logo 6"
         className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
     <div className="flex justify-center items-center">
       <img
-        src={logo5}
-        alt="Logo 5"
+        src={logo7}
+        alt="Logo 7"
         className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
