@@ -175,13 +175,13 @@ const Home = () => {
 
       
  <section className="bg-[#E7ECFF] px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto pt-16 pb-16">
-  <div className="grid grid-cols-2 md:grid-cols-5 gap-8 border-t border-blue-200 pt-12 text-center">
+  <div className="grid grid-cols-2 md:grid-cols-3 gap-8 border-t border-blue-200 pt-12 text-center">
     
     <div className="flex justify-center items-center">
       <img
         src={logo1}
         alt="Logo 1"
-        className="w-42 h-42 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+        className="w-50 h-50 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
@@ -190,7 +190,7 @@ const Home = () => {
       <img
         src={logo6}
         alt="Logo 6"
-        className="w-42 h-42 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+        className="w-50 h-50 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
@@ -198,7 +198,7 @@ const Home = () => {
       <img
         src={logo7}
         alt="Logo 7"
-        className="w-42 h-42 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+        className="w-50 h-50 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
