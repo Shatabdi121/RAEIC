@@ -181,7 +181,7 @@ const Home = () => {
       <img
         src={logo1}
         alt="Logo 1"
-        className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+        className="w-42 h-42 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
@@ -190,7 +190,7 @@ const Home = () => {
       <img
         src={logo6}
         alt="Logo 6"
-        className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+        className="w-42 h-42 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
@@ -198,7 +198,7 @@ const Home = () => {
       <img
         src={logo7}
         alt="Logo 7"
-        className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+        className="w-42 h-42 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
       />
     </div>
 
