@@ -185,21 +185,6 @@ const Home = () => {
       />
     </div>
 
-    <div className="flex justify-center items-center">
-      <img
-        src={logo2}
-        alt="Logo 2"
-        className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
-      />
-    </div>
-
-    <div className="flex justify-center items-center">
-      <img
-        src={logo}
-        alt="Logo 3"
-        className="w-32 h-32 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
-      />
-    </div>
 
     <div className="flex justify-center items-center">
       <img
