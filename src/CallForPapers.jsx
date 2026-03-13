@@ -88,7 +88,7 @@ const CallForPapers = () => {
               <br />
               <a
                 href="xxxxxxxcutmxxxxxxxxxxx"
-                className="text-orange-600 hover:underline break-all"
+                className="text-orange-600 hover:underline break-all" style={{ display:"none" }}
               >
                 xxxxxxxcutmxxxxxxxxxxx
               </a>
@@ -130,7 +130,7 @@ const CallForPapers = () => {
               that are not presented at the conference will not be eligible for
               inclusion.
             </li>
-            <li>
+            <li style={{ display:"none" }}>
               XXXCUTMXX-2026 strictly prohibits authors from altering their
               details or the sequence of authors once a manuscript has been
               submitted.
@@ -142,9 +142,7 @@ const CallForPapers = () => {
           <p className="mb-6 text-lg">
             All accepted and presented papers will be published in e-proceedings
             and submitted to the IEEE Xplore Digital Library, indexed by Scopus
-            and Google Scholar. Selected papers will also be considered for
-            extended publication in the IEEE Transactions on Industry
-            Applications or IEEE Industry Applications Magazine.
+            and Google Scholar.
           </p>
           <h3 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
             CMT ACKNOWLEDGMENT:
