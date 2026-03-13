@@ -423,39 +423,70 @@ const Home = () => {
       </p>
     </div>
 
-    <div className="relative space-y-8">
-      <div className="absolute left-3 top-0 bottom-0 w-0.5 bg-blue-300" />
+    <div class="flex items-center justify-center min-h-screen bg-gray-100 p-4">
+  <div class="w-full max-max-w-md bg-gradient-to-b from-gray-200 to-gray-300 rounded-xl shadow-lg border border-gray-400 overflow-hidden">
+    
+    <div class="pt-8 pb-4 text-center">
+      <h2 class="text-3xl font-bold text-orange-600 uppercase tracking-tight">
+        Keynote Speakers
+      </h2>
+      
+      <div class="flex items-center justify-center my-2">
+        <div class="h-0.5 w-16 bg-orange-800"></div>
+        <div class="h-2 w-8 bg-orange-800 mx-1"></div>
+        <div class="h-0.5 w-16 bg-orange-800"></div>
+      </div>
 
-      {schedule.map((item, idx) => (
-        <div key={idx} className="relative flex gap-4">
+      <h3 class="text-4xl font-bold text-orange-600 mt-4 italic">
+        Time Line
+      </h3>
 
-          <div className="z-10">
-            <div className="
-              w-12 h-12
-              sm:w-16 sm:h-16
-              rounded-full
-              bg-blue-600
-              text-white
-              flex items-center justify-center
-              text-xs sm:text-sm
-              font-semibold
-            ">
-              {item.date}
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl p-4 sm:p-6 shadow w-full">
-            <h4 className="font-bold text-base sm:text-lg">
-              {item.title}
-            </h4>
-            <p className="text-xs sm:text-sm text-slate-600 mt-1">
-              Conference Timeline Update
-            </p>
-          </div>
-
-        </div>
-      ))}
+      <div class="flex items-center justify-center mt-2 mb-6">
+        <div class="h-0.5 w-16 bg-orange-800"></div>
+        <div class="h-2 w-8 bg-orange-800 mx-1"></div>
+        <div class="h-0.5 w-16 bg-orange-800"></div>
+      </div>
     </div>
+
+    <div class="px-6 pb-12">
+      <div class="border border-gray-500 overflow-hidden">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-transparent">
+              <th class="py-3 px-4 text-xl font-bold text-slate-800 border-r border-b border-gray-500">Event</th>
+              <th class="py-3 px-4 text-xl font-bold text-slate-800 border-b border-gray-500">Date</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-700 font-medium">
+            <tr>
+              <td class="py-4 px-4 border-r border-b border-gray-500">Paper Submission Ends</td>
+              <td class="py-2 px-4 border-b border-gray-500">
+                <div class="text-gray-500 line-through decoration-slate-600">15/10/2026</div>
+                <div class="font-bold text-black text-lg">05/11/2025</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="py-4 px-4 border-r border-b border-gray-500">Notification of Acceptance</td>
+              <td class="py-4 px-4 border-b border-gray-500">16/11/2026</td>
+            </tr>
+            <tr>
+              <td class="py-4 px-4 border-r border-b border-gray-500">Camera-Ready Submission</td>
+              <td class="py-4 px-4 border-b border-gray-500">06/12/2026</td>
+            </tr>
+            <tr>
+              <td class="py-4 px-4 border-r border-b border-gray-500">Last Date of Registration</td>
+              <td class="py-4 px-4 border-b border-gray-500">10/12/2026</td>
+            </tr>
+            <tr>
+              <td class="py-4 px-4 border-r border-gray-500">Date of Conference</td>
+              <td class="py-4 px-4">27/12/2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
   </div>
 </section>
 
