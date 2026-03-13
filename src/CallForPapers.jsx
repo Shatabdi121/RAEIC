@@ -146,14 +146,11 @@ const CallForPapers = () => {
           extended publication in the IEEE Transactions on Industry Applications
           or IEEE Industry Applications Magazine.
         </p>
-        <h3 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
-          CMT ACKNOWLEDGMENT:
+        <h3>
+         CMT ACKNOWLEDGMENT:
         </h3>
         <p className="mb-6 text-lg">
-          The Microsoft CMT service was used for managing the peer-reviewing
-          process for this conference. This service was provided for free by
-          Microsoft and they bore all expenses, including costs for Azure cloud
-          services as well as for software development and support.
+          The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
         </p>
       </div>
       </div>
