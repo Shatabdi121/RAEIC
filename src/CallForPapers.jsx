@@ -146,9 +146,9 @@ const CallForPapers = () => {
           extended publication in the IEEE Transactions on Industry Applications
           or IEEE Industry Applications Magazine.
         </p>
-        <h2 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
+        <h3 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
           CMT ACKNOWLEDGMENT:
-        </h2>
+        </h3>
         <p className="mb-6 text-lg">
           The Microsoft CMT service was used for managing the peer-reviewing
           process for this conference. This service was provided for free by
