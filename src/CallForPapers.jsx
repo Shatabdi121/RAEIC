@@ -45,36 +45,33 @@ const CallForPapers = () => {
 
           <ol className="list-decimal list-inside space-y-2 text-base font-medium">
             <li>
-              Renewable Energy Systems and Sustainable Energy Technologies
+              Neural Informatics, Machine Learning, and Deep Learning
             </li>
             <li>
-              Power Electronics for Energy Conversion and Power System
-              Applications
+              Big Data, Distributed and Cloud Computing
             </li>
             <li>
-              Power System Planning, Stability, Reliability, and Smart Grid
-              Operations
+             5G, IOT and Futuristic Technologies
             </li>
-            <li>Advanced Electrical Machines and Industrial Drive Systems</li>
+            <li>Multimedia Services and Technologies</li>
             <li>
-              Energy Storage Technologies, Battery Management, and Fault
-              Diagnostics
+              Image Processing and Communication
             </li>
             <li>
-              Control Systems, Instrumentation, and Automation in Energy/Power
-              Applications
+              Intelligent computing in mobiles and automation
             </li>
             <li>
-              Energy Markets, Policy/Regulatory Frameworks, and Decarbonization
-              Strategies
+              Power System, Control, and Smart Grid
             </li>
             <li>
-              Artificial Intelligence, Data Analytics, and Computing in Energy
-              Systems
+              Renewable Energy, Electric Vehicle, and Global Sustainability
             </li>
             <li>
-              Signal Processing and Communication Systems in Energy Networks
+             Smart city, Smart systems and technologies
             </li>
+            <li>Ubiquitous Computing, Networking, and Cyber Security</li>
+            <li>Quantum AI</li>
+            <li>Structured design in material & composite</li>
           </ol>
 
           <h2 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
