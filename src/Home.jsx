@@ -460,9 +460,7 @@ const Home = () => {
           <tbody class="text-slate-700 font-medium">
             <tr>
               <td class="py-4 px-4 border-r border-b border-gray-500">Paper Submission Ends</td>
-              <td class="py-2 px-4 border-b border-gray-500">
-                <div class="text-gray-500 line-through decoration-slate-600">15/10/2026</div>
-                <div class="font-bold text-black text-lg">05/11/2025</div>
+              <td class="py-2 px-4 border-b border-gray-500">15/10/2026
               </td>
             </tr>
             <tr>
