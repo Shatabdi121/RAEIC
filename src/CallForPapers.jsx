@@ -115,7 +115,7 @@ const CallForPapers = () => {
               conference’s theme.
             </li>
             <li>
-              Every paper submitted to XXXCUTMXX-2026 will undergo plagiarism
+              Every paper submitted to AISIGHSD2026 will undergo plagiarism
               detection using anti-plagiarism software prior to review. Papers
               found to not meet the plagiarism policy may be desk-rejected
               without further review.
