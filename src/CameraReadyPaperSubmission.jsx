@@ -126,7 +126,7 @@ const CameraReadyPaperSubmission = () => {
                 <ol className="list-[lower-roman] list-inside ml-6 mt-2 space-y-1">
                   <li>Click on “Create account”.</li>
                   <li>Enter the following:</li>
-                  <li>66687X for the Conference ID</li>
+                  <li>70672X for the Conference ID</li>
                   <li>your email address</li>
                   <li>a password</li>
                 </ol>
@@ -172,18 +172,18 @@ const CameraReadyPaperSubmission = () => {
             </ul>
           </li>
 
-          <li style={{ display: "none" }}>
+          <li >
             Download the pdf file of your paper from PDF eXpressPlus website
             (Don’t rename it) and upload it via the CMT Portal for Camera Ready
-            Paper Submission of XXXCUTM at
+            Paper Submission of AISIGHSD-2026 at
             <br />
-            <a style={{ display: "none" }}
-              href="xxxxCUTM"
+            <a 
+              href="https://cmt3.research.microsoft.com/AISIGHSD2026"
               className="text-orange-600 no-underline hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-           XXXXXXCUTM
+            https://cmt3.research.microsoft.com/AISIGHSD2026
             </a>
           </li>
         </ol>

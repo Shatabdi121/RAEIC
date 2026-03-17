@@ -81,10 +81,10 @@ const CallForPapers = () => {
               CMT by following the provided link:
               <br />
               <a
-                href="xxxxxxxcutmxxxxxxxxxxx"
-                className="text-orange-600 hover:underline break-all" style={{ display:"none" }}
+                href="https://cmt3.research.microsoft.com/AISIGHSD2026"
+                className="text-orange-600 hover:underline break-all"
               >
-                xxxxxxxcutmxxxxxxxxxxx
+                https://cmt3.research.microsoft.com/AISIGHSD2026
               </a>
             </li>
 
@@ -124,8 +124,8 @@ const CallForPapers = () => {
               that are not presented at the conference will not be eligible for
               inclusion.
             </li>
-            <li style={{ display:"none" }}>
-              XXXCUTMXX-2026 strictly prohibits authors from altering their
+            <li>
+              AISIGHSD-2026 strictly prohibits authors from altering their
               details or the sequence of authors once a manuscript has been
               submitted.
             </li>
