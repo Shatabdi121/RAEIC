@@ -45,33 +45,30 @@ const CallForPapers = () => {
 
           <ol className="list-decimal list-inside space-y-2 text-base font-medium">
             <li>
-              Neural Informatics, Machine Learning, and Deep Learning
+              Artificial Intelligence, Machine Learning and Deep Learning
+            </li>
+            <li>Internet of Things (IoT), Edge AI, and Cyber-Physical Systems
             </li>
             <li>
-              Big Data, Distributed and Cloud Computing
+            Natural Language Processing, Computer Vision, and Multimodal AI
+            </li>
+            <li>AI in Healthcare and Biomedical Engineering</li>
+            <li>
+             AI for Smart Electrical and Power Systems
             </li>
             <li>
-             5G, IOT and Futuristic Technologies
-            </li>
-            <li>Multimedia Services and Technologies</li>
-            <li>
-              Image Processing and Communication
+              AI-Driven Smart Manufacturing and Industry 4.0
             </li>
             <li>
-              Intelligent computing in mobiles and automation
+              AI Applications in Aerospace Systems
             </li>
             <li>
-              Power System, Control, and Smart Grid
+              AI in Mining Engineering and Resource Exploration
             </li>
             <li>
-              Renewable Energy, Electric Vehicle, and Global Sustainability
+             AI for Smart Governance and Digital Public Infrastructure
             </li>
-            <li>
-             Smart city, Smart systems and technologies
-            </li>
-            <li>Ubiquitous Computing, Networking, and Cyber Security</li>
-            <li>Quantum AI</li>
-            <li>Structured design in material & composite</li>
+            <li>Sustainable Development, Green AI, and Environmental Intelligence</li>
           </ol>
 
           <h2 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">

@@ -172,12 +172,12 @@ const CameraReadyPaperSubmission = () => {
             </ul>
           </li>
 
-          <li>
+          <li style={{ display: "none" }}>
             Download the pdf file of your paper from PDF eXpressPlus website
             (Don’t rename it) and upload it via the CMT Portal for Camera Ready
             Paper Submission of XXXCUTM at
             <br />
-            <a
+            <a style={{ display: "none" }}
               href="xxxxCUTM"
               className="text-orange-600 no-underline hover:underline"
               target="_blank"
