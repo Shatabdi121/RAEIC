@@ -53,7 +53,7 @@ const Accomodation = () => {
         <span className="font-semibold"> first-come, first-served basis</span>.
         The <span className="font-semibold">last date</span> to submit interest
         for hostel accommodation is{" "}
-        <span className="font-semibold">28th January 2026</span>; requests
+        <span className="font-semibold">20th December 2026</span>; requests
         received after this date will not be considered.
       </p>
 
@@ -77,13 +77,13 @@ const Accomodation = () => {
         </li>
         <li>
           The accommodation charges are{" "}
-          <span className="font-semibold">INR 300/- per night</span>, payable in
+          <span className="font-semibold">INR 400/- per night</span>, payable in
           advance for the entire duration of the stay at the time of arrival.
         </li>
         <li>
           Working lunch will be hosted by the organizers for all registered
           participants during the conference (
-          <span className="font-semibold">20–21 February 2026</span>).
+          <span className="font-semibold">28–30 December 2026</span>).
         </li>
         <li>
           Registered participants must strictly adhere to the CUTM hostel norms

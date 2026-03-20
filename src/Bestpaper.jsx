@@ -55,7 +55,7 @@ const Bestpaper = () => {
         <span className="text-blue-600 text-2xl font-bold">🏆</span>
         <p className="text-lg leading-relaxed text-gray-800">
           All papers selected for <strong>oral presentations</strong> will automatically be
-          nominated for the <strong>AISIGH-SD Best Paper Award</strong>.
+          nominated for the <strong>AISIGH-SD 2026 Best Paper Award</strong>.
         </p>
       </div>
 

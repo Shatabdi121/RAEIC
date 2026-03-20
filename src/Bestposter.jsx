@@ -52,7 +52,7 @@ const Bestposter = () => {
         <span className="text-blue-600 text-2xl font-bold">🖼️</span>
         <p className="text-lg leading-relaxed text-gray-800">
           All accepted papers scheduled for <strong>poster presentations</strong>
-          will be considered for the <strong>AISIGH-SD Best Poster Award</strong>.
+          will be considered for the <strong>AISIGH-SD 2026 Best Poster Award</strong>.
         </p>
       </div>
 
@@ -71,7 +71,7 @@ const Bestposter = () => {
         <p className="text-lg leading-relaxed text-gray-800">
           The recipients of the Best Poster Award will be
           <strong> announced during the Valedictory Session</strong>
-          of AISIGH-SD.
+          of AISIGH-SD 2026.
         </p>
       </div>
 
