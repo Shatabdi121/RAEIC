@@ -141,7 +141,7 @@ const [openAwards, setOpenAwards] = useState(false);
                SCHEDULE
               </HashLink>
               <Link to="/sponsership" className="nav-link">
-                SPONSERSHIP
+                SPONSORSHIP
               </Link>
 
 
@@ -283,7 +283,7 @@ const [openAwards, setOpenAwards] = useState(false);
 
       {/* SPONSERSHIP */}
       <Link to="/sponsership" className="nav-link">
-        SPONSERSHIP
+        SPONSORSHIP
       </Link>
 
       {/* CTA BUTTONS */}

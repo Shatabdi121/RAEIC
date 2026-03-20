@@ -86,7 +86,7 @@ const Accomodation = () => {
           <span className="font-semibold">20–21 February 2026</span>).
         </li>
         <li>
-          Registered participants must strictly adhere to the SOA hostel norms
+          Registered participants must strictly adhere to the CUTM hostel norms
           during their stay.
         </li>
       </ul>

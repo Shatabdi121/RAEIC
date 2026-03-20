@@ -86,6 +86,20 @@ const Patrons = () => {
               General Chairs:
             </h3>
             <ul className="list-disc list-inside">
+              <li>Prof. Ashok Kumar Tripathy, IEEE, Bhubaneswar Section</li>
+              <li>Shri. Hare Krishna Ratha, Former Director, DRDO
+</li>
+<li>Prof. Bansidhar Majhi, CGU, Bhubaneswar </li>
+<li>Prof. Pradipta Kumar Nanda , SoA, Bhubaneswar</li>
+<li>Prof. Debi Prosad Dogra, IIT, Bhubaneswar</li>
+            </ul>
+          </div>
+          
+          <div className="mb-8">
+            <h3 className="text-2xl font-bold text-slate-900 mb-2">
+              Organizing Chairs:
+            </h3>
+            <ul className="list-disc list-inside">
               <li>Prof. Sujata Chakravarty, CUTM, Bhubaneswar</li>
               <li>Prof. Tapan Kumar Gandhi, IIT, Delhi</li>
             </ul>
@@ -190,67 +204,14 @@ const Patrons = () => {
           </div>
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-slate-900 mb-2">
-              Organizing Committee:
-            </h3>
-            <ul className="list-disc list-inside">
-              <li>Prof. Sujata Chakravarty, CUTM, Bhubaneswar</li>
-              <li>Prof. Debi Prosad Dogra, IIT, Bhubaneswar</li>
-            </ul>
-          </div>
-
-          <div className="mb-8">
-            <h3 className="text-2xl font-bold text-slate-900 mb-2">
-              Honorary Advisory Board
-            </h3>
-            <ul className="list-disc list-inside">
-              <li>Prof. Ganapati Panda, CGU, Bhubaneswar</li>
-              <li>Prof. Subhransu Ranjan Samantaray, IIT, Bhubaneswar</li>
-              <li>Prof. Ashok Kumar Tripathy</li>
-              <li>Shri Hare Krishna Ratha, Former Director, DRDO</li>
-              <li>Prof. Bansidhar Majhi, CGU, Bhubaneswar</li>
-              <li>Prof. Pradipta Kumar Nanda</li>
-              <li>Prof. Pramod Kumar Meher</li>
-              <li>Prof. Suparna Kar Chowdhury</li>
-              <li>Prof. Tridibesh Nag</li>
-              <li>Prof. Prerna Gaur</li>
-              <li>Prof. Celiya Shehnaaz</li>
-              <li>Prof. Durga Prasad Mohapatra</li>
-              <li>Prof. Amiya Kumar Rath</li>
-              <li>Prof. Abhijeet Choudhury, SOA, Bhubaneswar</li>
-              <li>Prof. Bhabasis Mohapatra, SOA, Bhubaneswar</li>
-              <li>Prof. O.P. Verma, Delhi Technological University, Delhi</li>
-            </ul>
-          </div>
-
-          <div className="mb-8">
-            <h3 className="text-2xl font-bold text-slate-900 mb-2">
-              Advisory Committee:
-            </h3>
-            <ul className="list-disc list-inside">
-              <li>Prof. Trilochan Panigrahi, NIT Goa</li>
-              <li>Prof. Shantanu Bhattachaya, IIT Bombay</li>
-              <li>Prof. Sagar Mitra, IIT Bombay</li>
-              <li>Prof. Krishna Vasudevan, IIT Madras</li>
-              <li>Prof. Ankit Deshmukh, (IIT, BBSR)</li>
-              <li>Prof. Ankit Dalal, (IIT, BBSR)</li>
-              <li>Prof. Aritra Banik, NISER, Bhubaneswar</li>
-              <li>Prof. Abhilash Patel, (IIT, KANPUR)</li>
-              <li>Prof. S. G. Kadwane, (YCCE, Nagpur)</li>
-              <li>Prof. Subhojit Ghosh, (NIT, Raipur)</li>
-              <li>Prof. Gagan Deep Meena (NIT, Patna)</li>
-              <li>Prof. Joyjit Mukherjee (BITS Pilani, Hyderabad)</li>
-            </ul>
-          </div>
-
-          <div className="mb-8">
-            <h3 className="text-2xl font-bold text-slate-900 mb-2">
-              Local Organizing Committee:
+            Local Organizing Committee:
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Surya Narayan Sahu, CUTM, Bhubaneswar</li>
               <li>Prof. Sushant Meher, CUTM, Bhubaneswar</li>
             </ul>
           </div>
+
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-slate-900 mb-2">
               Women in Engineering Chairs:

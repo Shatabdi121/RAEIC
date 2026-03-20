@@ -23,7 +23,7 @@ const Sponsership = () => {
                 "2px 2px 0 rgba(0,0,0,0.5), 4px 4px 0 rgba(0,0,0,0.4)",
             }}
           >
-            SPONSERSHIP
+            SPONSORSHIP
           </h1>
 
           <p className="text-lg md:text-xl text-blue-100 max-w-3xl opacity-90">
