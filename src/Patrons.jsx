@@ -176,7 +176,7 @@ const Patrons = () => {
               <li>Prof. Trilocahn Penthia, NIT, Patna</li>
               <li>Prof. Sudarshan Swain, BITS Pilani, GOA Campus</li>
               <li>
-                Prof. BiranchiNarayan Ratha, Silicon University, Bhubaneswar
+                Prof. Biranchi Narayan Ratha, Silicon University, Bhubaneswar
               </li>
             </ul>
           </div>
