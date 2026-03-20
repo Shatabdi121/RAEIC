@@ -145,34 +145,18 @@ const Sponsership = () => {
 
   <ul className="space-y-2 text-slate-700 text-sm md:text-base">
     <li>
-      <span className="font-medium">Prof. xxxxxxxxxxxx</span> –{" "}
+      <span className="font-medium">Prof. Raj Kumar Mohanta</span> –{" "}
       <a
-        href="mailto:aneesh.cee@mnit.ac.in"
+        href="mailto:rajkumar.mohanta@cutm.ac.in"
         className="text-blue-600 hover:underline"
       >
-        xxxxxxxxxxxxxxxxx@gmail.com
+        rajkumar.mohanta@cutm.ac.in
       </a>
+       
     </li>
-
-    <li>
-      <span className="font-medium">xxxxxxxxxxx</span> –{" "}
-      <a
-        href="mailto:pm19101993@gmail.com"
-        className="text-blue-600 hover:underline"
-      >
-         xxxxxxxxxxxxxxxxx@gmail.com
-      </a>
-    </li>
-
-    <li>
-      <span className="font-medium">Prof.xxxxxxxx</span> –{" "}
-      <a
-        href="mailto:kumarikasturi@soa.ac.in"
-        className="text-blue-600 hover:underline"
-      >
-        xxxxxxxxxxxxxxxxx@gmail.com
-      </a>
-    </li>
+          <li>
+        <span className="font-medium">Assitant Professor, HOD of Computer Science and Engineering</span>
+          </li>
   </ul>
 </div>
 
