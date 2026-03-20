@@ -87,14 +87,13 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Ashok Kumar Tripathy, IEEE, Bhubaneswar Section</li>
-              <li>Shri. Hare Krishna Ratha, Former Director, DRDO
-</li>
-<li>Prof. Bansidhar Majhi, CGU, Bhubaneswar </li>
-<li>Prof. Pradipta Kumar Nanda , SoA, Bhubaneswar</li>
-<li>Prof. Debi Prosad Dogra, IIT, Bhubaneswar</li>
+              <li>Shri. Hare Krishna Ratha, Former Director, DRDO</li>
+              <li>Prof. Bansidhar Majhi, CGU, Bhubaneswar </li>
+              <li>Prof. Pradipta Kumar Nanda , SoA, Bhubaneswar</li>
+              <li>Prof. Debi Prosad Dogra, IIT, Bhubaneswar</li>
             </ul>
           </div>
-          
+
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-slate-900 mb-2">
               Organizing Chairs:
@@ -134,6 +133,7 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Sangam Keshari Swain, CUTM, Bhubaneswar</li>
+              <li>Prof. Debendra Kumar Sahoo, CUTM, Paralakhemundi</li>
               <li>
                 Prof. Rajendra Kumar Khadanga, CUTM, Bhubaneswar, Odisha, India
               </li>
@@ -204,7 +204,7 @@ const Patrons = () => {
           </div>
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-slate-900 mb-2">
-            Local Organizing Committee:
+              Local Organizing Committee:
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Surya Narayan Sahu, CUTM, Bhubaneswar</li>
