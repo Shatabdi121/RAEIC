@@ -162,9 +162,9 @@ const Patrons = () => {
               <li>Prof. Sasmita Kumari Nayak, Bhubaneswar, Odisha, India</li>
               <li>Prof. Chnadra Sekhar Dash, , Bhubaneswar, Odisha, India</li>
               <li>Prof. Prafulla Kumar Panda, CUTM, Praralakumdi,</li>
-              <li>Prof. Dhabaleswar Rao, CUTM, Praralakumdi,</li>
-              <li>Prof. Prabhat Kumar Patnaik, CUTM, Praralakumdi,</li>
-              <li>Prof. Chnadra Sekhar Dash, CUTM, Bhubaneswar,</li>
+              <li>Prof. Dhabaleswar Rao, CUTM, Praralakumdi</li>
+              <li>Prof. Prabhat Kumar Patnaik, CUTM, Praralakumdi</li>
+              <li>Prof. Chnadra Sekhar Dash, CUTM, Bhubaneswar</li>
             </ul>
           </div>
 
@@ -178,6 +178,7 @@ const Patrons = () => {
               <li>Prof. Renu Sharma, (ITER, BBSR)</li>
               <li>Prof. Chinmaya Panighrahi (KIIT, BBSR)</li>
               <li>Prof. Rajeeta Patel, KIIT, BBSR)</li>
+              <li>Prof. Debendra Kumar Sahoo, CUTM, Paralakhemundi</li>
               <li>Prof. Usahrani Rout (IIIT, BBSR)</li>
               <li>Prof. Tapas Kumar patra (OUTR, BBSR)</li>
               <li>Prof. Umamani Subudhi, (IIIT, Bhubaneswar)</li>
