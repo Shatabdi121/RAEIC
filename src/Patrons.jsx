@@ -125,6 +125,7 @@ const Patrons = () => {
                 Prof. Ashish Ranjan Dash, CUTM, Bhubaneswar, Odisha, India
               </li>
               <li>Prof. Tanmay Ray Chodhury, (NIT, Rourkela)</li>
+              <li>Prof. Rahul Ray</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -223,6 +224,7 @@ const Patrons = () => {
               <li>Prof. Bharati Mishra, IIT Bhubaneswar</li>
               <li>Prof. Smitanjali Rout, CUTM, Bhubaneswar</li>
               <li>Prof. Swarnaprabha Jena, CUTM, Bhubaneswar</li>
+              <li>Prof. Prachee Dewangan</li>
             </ul>
           </div>
           <div className="mb-8">
