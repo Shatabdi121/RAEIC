@@ -246,7 +246,7 @@ const Patrons = () => {
             <ul className="list-disc list-inside">
               <li>Prof. Rakesh Kumar Ray, CUTM, Bhubaneswar</li>
               <li>Prof. Jyoti Prakash Giri, CUTM, Bhubaneswar</li>
-              <li>Prof. Deepak Ku Sahoo, CUTM, Bhubaneswar</li>
+              <li>Prof. Deepak Kumar Sahu, CUTM, Bhubaneswar</li>
             </ul>
           </div>
           <div className="mb-8">
