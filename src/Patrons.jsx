@@ -42,7 +42,7 @@ const Patrons = () => {
               Chief Patron:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Dr. Mukti Kanta Mishra, President, Bhubaneswar, India</li>
+              <li>Prof. Mukti Kanta Mishra, President, CUTM, Odisha</li>
               <li>
                 Prof. D.N.Rao, Vice-President, CUTM, Bhubaneswar, Odisha, India
               </li>
@@ -140,7 +140,7 @@ const Patrons = () => {
               </li>
               <li>Prof. Satyasis Mishra, CUTM, Bhubaneswar, Odisha, India</li>
               <li>Prof. Chinmayee Dora, CUTM, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Sunil Mohapatra, CUTM, Odisha, India</li>
+              <li>Prof. Sunil Kumar Mohapatra, CUTM, Odisha, India</li>
             </ul>
           </div>
 
@@ -161,11 +161,10 @@ const Patrons = () => {
               <li>Prof. Ashok Mishra, CUTM, Odisha, India</li>
               <li>Prof. Amit Kumar Sahoo, CUTM, Bhubaneswar, Odisha, India</li>
               <li>Prof. Sasmita Kumari Nayak, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Chnadra Sekhar Dash, , Bhubaneswar, Odisha, India</li>
               <li>Prof. Prafulla Kumar Panda, CUTM, Praralakumdi,</li>
-              <li>Prof. Dhabaleswar Rao, CUTM, Praralakumdi</li>
+              <li>Prof. Dhawaleswar Rao, CUTM, Praralakumdi</li>
               <li>Prof. Prabhat Kumar Patnaik, CUTM, Praralakumdi</li>
-              <li>Prof. Chnadra Sekhar Dash, CUTM, Bhubaneswar</li>
+              <li>Prof. Chandra Sekhar Dash, CUTM, Bhubaneswar</li>
             </ul>
           </div>
 
@@ -201,7 +200,7 @@ const Patrons = () => {
               Hospitality and Logistics chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Rajkumar Mahanta, CUTM, Bhubaneswar</li>
+              <li>Prof. Raj Kumar Mohanta, CUTM, Bhubaneswar</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -210,7 +209,7 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Surya Narayan Sahu, CUTM, Bhubaneswar</li>
-              <li>Prof. Sushant Meher, CUTM, Bhubaneswar</li>
+              <li>Prof. Sushanta Kumar Meher, CUTM, Bhubaneswar</li>
             </ul>
           </div>
 
@@ -235,7 +234,7 @@ const Patrons = () => {
               <li>
                 Prof. Rama Prasanna Dalai, CUTM, Bhubaneswar, Odisha, India
               </li>
-              <li>Prof. Satyananda Biswal, Bhubaneswar, Odisha, India</li>
+              <li>Prof. Satyananda Swain, Bhubaneswar, Odisha, India</li>
               <li>Prof. Biranchi Prasad Mishra, Bhubaneswar, Odisha, India</li>
             </ul>
           </div>
@@ -245,7 +244,7 @@ const Patrons = () => {
               Industry and Sponsorship chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Rakesh Ray, CUTM, Bhubaneswar</li>
+              <li>Prof. Rakesh Kumar Ray, CUTM, Bhubaneswar</li>
               <li>Prof. Jyoti Prakash Giri, CUTM, Bhubaneswar</li>
               <li>Prof. Deepak Ku Sahoo, CUTM, Bhubaneswar</li>
             </ul>
@@ -255,7 +254,7 @@ const Patrons = () => {
               Publicity chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Harish Chandra Mahanta, CUTM, Bhubaneswar</li>
+              <li>Prof. Harish Chandra Mohanta, CUTM, Bhubaneswar</li>
               <li>Prof. Sunita Routray, CUTM, Bhubaneswar</li>
               <li>Prof. Manas Ranjan Padhi, CUTM, Bhubaneswar</li>
               <li>Prof. Satyabrata Nanda, CUTM, Bhubaneswar</li>
