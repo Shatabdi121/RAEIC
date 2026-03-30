@@ -14,7 +14,7 @@ const [openAwards, setOpenAwards] = useState(false);
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "../assets/AISIGHFinal.pdf"; // Update with actual path
+    link.href = "./assets/AISIGHFinal.pdf"; // Update with actual path
     link.download = "brochure.pdf";
     document.body.appendChild(link);
     link.click();
