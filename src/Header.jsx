@@ -161,7 +161,7 @@ const [openAwards, setOpenAwards] = useState(false);
 </button>
 </Link>
 
- <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition">
+ <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" onClick={handleDownload}>
   BROCHURE
 </button>
 
