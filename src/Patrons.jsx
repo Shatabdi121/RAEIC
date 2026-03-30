@@ -44,7 +44,7 @@ const Patrons = () => {
             <ul className="list-disc list-inside">
               <li>Prof. Mukti Kanta Mishra, President, CUTM, Odisha</li>
               <li>
-                Prof. D.N.Rao, Vice-President, CUTM, Bhubaneswar, Odisha, India
+                Prof. D.N.Rao, Vice-President, CUTM, Odisha
               </li>
             </ul>
           </div>
@@ -53,18 +53,17 @@ const Patrons = () => {
             <h3 className="text-2xl font-bold text-slate-900 mb-2">Patron:</h3>
             <ul className="list-disc list-inside">
               <li>
-                Prof. Supriya Pattnaik, Vice-Chancellor, CUTM, Bhubaneswar,
-                India
+                Prof. Supriya Pattnaik, Vice-Chancellor, CUTM, Odisha
               </li>
-              <li>Prof. Anita Patra, Registrar, CUTM, Bhubaneswar, India</li>
-              <li>Prof. Jagannath Padhi, Director, CUTM, Bhubaneswar, India</li>
+              <li>Prof. Anita Patra, Registrar, CUTM, Odisha</li>
+              <li>Prof. Jagannath Padhi, Director, CUTM, Odisha</li>
               <li>
                 Prof. Biswajit Mishra, Pro-Vice-Chancellor (Academics), CUTM,
-                Bhubaneswar, India
+                Odisha
               </li>
               <li>
                 Prof. Ajay Kumar Nayak, Pro-Vice-Chancellor (Administrative),
-                CUTM, Bhubaneswar, India
+                CUTM, Odisha
               </li>
             </ul>
           </div>
@@ -91,6 +90,7 @@ const Patrons = () => {
               <li>Prof. Bansidhar Majhi, CGU, Bhubaneswar </li>
               <li>Prof. Pradipta Kumar Nanda , SoA, Bhubaneswar</li>
               <li>Prof. Debi Prosad Dogra, IIT, Bhubaneswar</li>
+              <li>Prof. Durga Prasad Mohapatra, NIT, Rourkela</li>
             </ul>
           </div>
 
@@ -99,7 +99,7 @@ const Patrons = () => {
               Organizing Chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Sujata Chakravarty, CUTM, Bhubaneswar</li>
+              <li>Prof. Sujata Chakravarty, CUTM, Odisha</li>
               <li>Prof. Tapan Kumar Gandhi, IIT, Delhi</li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ const Patrons = () => {
               Conference Secretaries:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Sudhansu Kumar Samal, CUTM, Bhubaneswar, Odisha</li>
+              <li>Prof. Sudhansu Kumar Samal, CUTM, Odisha</li>
               <li>Prof. Manoj Kumar Debnath, SoA, Bhubaneswar</li>
             </ul>
           </div>
@@ -118,14 +118,16 @@ const Patrons = () => {
               Publication Chairs:
             </h3>
             <ul className="list-disc list-inside">
+            <li>Prof. Sudarson Jena, SUIIT, Sambalpur University,Odisha</li>
               <li>
-                Prof. Ramesh Chandra Mohanty,CUTM, Bhubaneswar, Odisha, India
+                Prof. Ramesh Chandra Mohanty, CUTM, Odisha
               </li>
               <li>
                 Prof. Ashish Ranjan Dash, CUTM, Bhubaneswar, Odisha, India
               </li>
               <li>Prof. Tanmay Ray Chodhury, (NIT, Rourkela)</li>
-              <li>Prof. Rahul Ray, CUTM, Bhubaneswar</li>
+              <li>Prof. Rahul Ray,CUTM, Odisha</li>
+              <li>Prof. Satyabrata Dash, GITAM, AP</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -133,14 +135,14 @@ const Patrons = () => {
               Technical Program Chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Sangam Keshari Swain, CUTM, Bhubaneswar</li>
-              <li>Prof. Debendra Kumar Sahoo, CUTM, Paralakhemundi</li>
+              <li>Prof. Sangam Keshari Swain, CUTM, Odisha</li>
+              <li>Prof. Debendra Kumar Sahoo, CUTM, Odisha</li>
               <li>
-                Prof. Rajendra Kumar Khadanga, CUTM, Bhubaneswar, Odisha, India
+                Prof. Rajendra Kumar Khadanga, CUTM, Odisha|
               </li>
-              <li>Prof. Satyasis Mishra, CUTM, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Chinmayee Dora, CUTM, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Sunil Kumar Mohapatra, CUTM, Odisha, India</li>
+              <li>Prof. Satyasis Mishra, CUTM, Odisha</li>
+              <li>Prof. Chinmayee Dora, CUTM, Odisha</li>
+              <li>Prof. Sunil Kumar Mohapatra, CUTM, Odisha</li>
             </ul>
           </div>
 
@@ -149,7 +151,7 @@ const Patrons = () => {
               Finance Chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Mr. Debasis Panda, CUTM, Bhubaneswar, Odisha, India</li>
+              <li>Mr. Debasis Panda, CUTM, Odisha</li>
             </ul>
           </div>
 
@@ -159,12 +161,13 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Ashok Mishra, CUTM, Odisha, India</li>
-              <li>Prof. Amit Kumar Sahoo, CUTM, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Sasmita Kumari Nayak, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Prafulla Kumar Panda, CUTM, Praralakumdi,</li>
-              <li>Prof. Dhawaleswar Rao, CUTM, Praralakumdi</li>
-              <li>Prof. Prabhat Kumar Patnaik, CUTM, Praralakumdi</li>
-              <li>Prof. Chandra Sekhar Dash, CUTM, Bhubaneswar</li>
+              <li>Prof. Amit Kumar Sahoo, CUTM, Odisha, India</li>
+              <li>Prof. Sasmita Kumari Nayak, Odisha, India</li>
+              <li>Prof. Prafulla Kumar Panda, CUTM, Odisha</li>
+              <li>Prof. Dhawaleswar Rao, CUTM, Odisha</li>
+              <li>Prof. Prabhat Kumar Patnaik, CUTM, Odisha</li>
+              <li>Prof. Chandra Sekhar Dash, CUTM, Odisha</li>
+              <li>Prof. Abhisekh Das, CUTM, Odisha</li>
             </ul>
           </div>
 
@@ -173,12 +176,12 @@ const Patrons = () => {
               Technical Program Committee:
             </h3>
             <ul className="list-disc list-inside">
+            <li>Prof. B. K. Panigrahi, IIT, Delhi</li>
               <li>Prof. Dipayan Gulia, NfT Allahabad</li>
               <li>Prof. Abhishek Dey, (NIT, Rourkela)</li>
               <li>Prof. Renu Sharma, (ITER, BBSR)</li>
               <li>Prof. Chinmaya Panighrahi (KIIT, BBSR)</li>
               <li>Prof. Rajeeta Patel, KIIT, BBSR)</li>
-              <li>Prof. Debendra Kumar Sahoo, CUTM, Paralakhemundi</li>
               <li>Prof. Usahrani Rout (IIIT, BBSR)</li>
               <li>Prof. Tapas Kumar patra (OUTR, BBSR)</li>
               <li>Prof. Umamani Subudhi, (IIIT, Bhubaneswar)</li>
@@ -193,6 +196,13 @@ const Patrons = () => {
               <li>
                 Prof. Biranchi Narayan Ratha, Silicon University, Bhubaneswar
               </li>
+              <li>Prof. Brojo Kishore Mishra, NIST, Odisha</li>
+              <li>Prof. Mamata Wagh, CGU</li>
+              <li>Prof. Mamata Gadanayak, KIIT</li>
+              <li>Prof. Sanjaya Kumar Panda, NIT, Warangal</li>
+              <li>Prof. Sanjib Kumar Nayak, VSSUT, Burla</li>
+              <li>Prof. Atul Vikas Lakra, VSSUT, Burla</li>
+              <li>Prof. Santosh Kumar Majhi, Guru Ghasidas Vishwavidyalaya Bilaspur,India</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -200,7 +210,7 @@ const Patrons = () => {
               Hospitality and Logistics chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Raj Kumar Mohanta, CUTM, Bhubaneswar</li>
+              <li>Prof. Raj Kumar Mohanta, CUTM, Odisha</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -208,8 +218,8 @@ const Patrons = () => {
               Local Organizing Committee:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Surya Narayan Sahu, CUTM, Bhubaneswar</li>
-              <li>Prof. Sushanta Kumar Meher, CUTM, Bhubaneswar</li>
+              <li>Prof. Surya Narayan Sahu, CUTM, Odisha</li>
+              <li>Prof. Sushanta Kumar Meher, CUTM, Odisha</li>
             </ul>
           </div>
 
@@ -219,11 +229,12 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Celia Shahnaz, BUET, Bangladesh</li>
+              <li>Dr. Sakuntala Mohapatra, CUTM, Odisha</li>
               <li>Prof. Umamoni Subudhi, IIT Bhubaneswar</li>
               <li>Prof. Bharati Mishra, IIT Bhubaneswar</li>
-              <li>Prof. Smitanjali Rout, CUTM, Bhubaneswar</li>
-              <li>Prof. Swarnaprabha Jena, CUTM, Bhubaneswar</li>
-              <li>Prof. Prachee Dewangan, CUTM, Bhubaneswar</li>
+              <li>Prof. Smitanjali Rout, CUTM, Odisha</li>
+              <li>Prof. Swarnaprabha Jena, CUTM, Odisha</li>
+              <li>Prof. Prachee Dewangan, CUTM, Odisha</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -232,10 +243,10 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>
-                Prof. Rama Prasanna Dalai, CUTM, Bhubaneswar, Odisha, India
+                Prof. Rama Prasanna Dalai, CUTM, Odisha
               </li>
-              <li>Prof. Satyananda Swain, Bhubaneswar, Odisha, India</li>
-              <li>Prof. Biranchi Prasad Mishra, Bhubaneswar, Odisha, India</li>
+              <li>Prof. Satyananda Swain, CUTM, Odisha</li>
+              <li>Prof. Biranchi Prasad Mishra, CUTM, Odisha</li>
             </ul>
           </div>
 
@@ -244,9 +255,9 @@ const Patrons = () => {
               Industry and Sponsorship chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Rakesh Kumar Ray, CUTM, Bhubaneswar</li>
-              <li>Prof. Jyoti Prakash Giri, CUTM, Bhubaneswar</li>
-              <li>Prof. Deepak Kumar Sahu, CUTM, Bhubaneswar</li>
+              <li>Prof. Rakesh Kumar Ray, CUTM, Odisha</li>
+              <li>Prof. Jyoti Prakash Giri, CUTM, Odisha</li>
+              <li>Prof. Deepak Kumar Sahu, CUTM, Odisha</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -254,10 +265,10 @@ const Patrons = () => {
               Publicity chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Harish Chandra Mohanta, CUTM, Bhubaneswar</li>
-              <li>Prof. Sunita Routray, CUTM, Bhubaneswar</li>
-              <li>Prof. Manas Ranjan Padhi, CUTM, Bhubaneswar</li>
-              <li>Prof. Satyabrata Nanda, CUTM, Bhubaneswar</li>
+              <li>Prof. Harish Chandra Mohanta, CUTM, Odisha</li>
+              <li>Prof. Sunita Routray, CUTM, Odisha</li>
+              <li>Prof. Manas Ranjan Padhi, CUTM, Odisha </li>
+              <li>Prof. Satyabrata Nanda, CUTM, Odisha</li>
             </ul>
           </div>
         </div>
