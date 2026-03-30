@@ -12,6 +12,15 @@ const [openSpeakers, setOpenSpeakers] = useState(false);
 const [openAwards, setOpenAwards] = useState(false);
 
 
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "../assets/AISIGHFinal.pdf"; // Update with actual path
+    link.download = "brochure.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
   return (
     <>
 
@@ -293,7 +302,7 @@ const [openAwards, setOpenAwards] = useState(false);
         </button>
       </Link>
 
-      <button className="w-full bg-blue-600 text-white py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition">
+      <button className="w-full bg-blue-600 text-white py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" onClick={handleDownload}>
         BROCHURE
       </button>
 

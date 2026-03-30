@@ -472,9 +472,17 @@ const Home = () => {
                       </tr>
                     </thead>
                     <tbody class="text-slate-700 font-medium">
+                    <tr>
+                    <td class="py-4 px-4 border-r border-b border-gray-500">
+                          Paper Submission Begins
+                        </td>
+                        <td class="py-2 px-4 border-b border-gray-500">
+                          10/02/2026
+                        </td>
+                    </tr>
                       <tr>
                         <td class="py-4 px-4 border-r border-b border-gray-500">
-                          Paper Submission Ends
+                          Paper Submission Deadline
                         </td>
                         <td class="py-2 px-4 border-b border-gray-500">
                           15/09/2026
@@ -485,15 +493,15 @@ const Home = () => {
                           Notification of Acceptance
                         </td>
                         <td class="py-4 px-4 border-b border-gray-500">
-                          16/11/2026
+                          15/11/2026
                         </td>
                       </tr>
                       <tr>
                         <td class="py-4 px-4 border-r border-b border-gray-500">
-                          Camera-Ready Submission
+                          Camera-Ready Submission Deadline
                         </td>
                         <td class="py-4 px-4 border-b border-gray-500">
-                          06/12/2026
+                          30/11/2026
                         </td>
                       </tr>
                       <tr>
