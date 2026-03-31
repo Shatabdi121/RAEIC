@@ -16,7 +16,7 @@ const [openAwards, setOpenAwards] = useState(false);
     // This opens the download link in a hidden iframe or new tab
     // to force the browser to trigger the "Save As" dialog
     const fileId = "1QBi_C1RJq8WlZqOHiKbG1x72qC48415Y";
-    const downloadUrl = `https://drive.google.com/file/d/1Zu4rkU-zzH3f2ZpFyq2pgNsr89-85_4l/view?usp=drive_link`;
+    const downloadUrl = `https://drive.google.com/file/d/1jwSD-wGuZxl4s8vdivOZpKkjBvxrTG1S/view`;
 
   return (
     <>
@@ -300,7 +300,7 @@ const [openAwards, setOpenAwards] = useState(false);
         </button>
       </Link>
 
-      <a href="https://drive.google.com/file/d/1Zu4rkU-zzH3f2ZpFyq2pgNsr89-85_4l/view?usp=drive_link" download="AISIGH-SD.pdf">
+      <a href={downloadUrl} target="_blank" rel="noopener noreferrer">
       <button className="w-full bg-blue-600 text-white py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition">
         BROCHURE
       </button>
