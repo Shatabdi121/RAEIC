@@ -12,14 +12,12 @@ const [openSpeakers, setOpenSpeakers] = useState(false);
 const [openAwards, setOpenAwards] = useState(false);
 
 
-  const fileId = "1QBi_C1RJq8WlZqOHiKbG1x72qC48415Y";
-  const downloadUrl = `https://drive.google.com/drive/u/0/folders/${fileId}`;
 
-  const handleDownload = () => {
     // This opens the download link in a hidden iframe or new tab
     // to force the browser to trigger the "Save As" dialog
-    window.open(downloadUrl, '_blank');
-  };
+    const fileId = "1QBi_C1RJq8WlZqOHiKbG1x72qC48415Y";
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
   return (
     <>
 
@@ -159,9 +157,11 @@ const [openAwards, setOpenAwards] = useState(false);
   REGISTRATION
 </button>
 </Link>
- <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" onClick={handleDownload}>
+<a href={downloadUrl} target="_blank" rel="noopener noreferrer">
+ <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" >
   BROCHURE
 </button>
+</a>
 
             </div>
 
