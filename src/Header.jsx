@@ -16,7 +16,7 @@ const [openAwards, setOpenAwards] = useState(false);
     // This opens the download link in a hidden iframe or new tab
     // to force the browser to trigger the "Save As" dialog
     const fileId = "1QBi_C1RJq8WlZqOHiKbG1x72qC48415Y";
-    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    const downloadUrl = `https://drive.google.com/file/d/1Zu4rkU-zzH3f2ZpFyq2pgNsr89-85_4l/view?usp=drive_link`;
 
   return (
     <>
