@@ -12,15 +12,14 @@ const [openSpeakers, setOpenSpeakers] = useState(false);
 const [openAwards, setOpenAwards] = useState(false);
 
 
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "./assets/AISIGHFinal.pdf"; // Update with actual path
-    link.download = "brochure.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
+  const fileId = "1QBi_C1RJq8WlZqOHiKbG1x72qC48415Y";
+  const downloadUrl = `https://drive.google.com/drive/u/0/folders/${fileId}`;
 
+  const handleDownload = () => {
+    // This opens the download link in a hidden iframe or new tab
+    // to force the browser to trigger the "Save As" dialog
+    window.open(downloadUrl, '_blank');
+  };
   return (
     <>
 
@@ -160,10 +159,9 @@ const [openAwards, setOpenAwards] = useState(false);
   REGISTRATION
 </button>
 </Link>
-<a href="https://drive.google.com/file/d/1Zu4rkU-zzH3f2ZpFyq2pgNsr89-85_4l/view?usp=drive_link" download="AISIGH-SD.pdf">
- <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" >
+ <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" onClick={handleDownload}>
   BROCHURE
-</button></a>
+</button>
 
             </div>
 
