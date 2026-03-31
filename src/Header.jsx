@@ -160,7 +160,7 @@ const [openAwards, setOpenAwards] = useState(false);
   REGISTRATION
 </button>
 </Link>
-<a href="./assets/AISIGHFinal.pdf" download="AISIGH-SD.pdf">
+<a href="https://drive.google.com/file/d/1Zu4rkU-zzH3f2ZpFyq2pgNsr89-85_4l/view?usp=drive_link" download="AISIGH-SD.pdf">
  <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition" >
   BROCHURE
 </button></a>
@@ -302,7 +302,7 @@ const [openAwards, setOpenAwards] = useState(false);
         </button>
       </Link>
 
-      <a href="./assets/AISIGHFinal.pdf" download="AISIGH-SD.pdf">
+      <a href="https://drive.google.com/file/d/1Zu4rkU-zzH3f2ZpFyq2pgNsr89-85_4l/view?usp=drive_link" download="AISIGH-SD.pdf">
       <button className="w-full bg-blue-600 text-white py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition">
         BROCHURE
       </button>
