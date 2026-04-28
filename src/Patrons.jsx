@@ -77,6 +77,7 @@ const Patrons = () => {
               <li>Prof. Ashutosh Dutta, Johns Hopkins University, USA</li>
               <li>Prof. Subhransu Sekhar Samantray, IIT Bhubaneswar, India </li>
               <li>Prof. Sukumar Mishra, IIT Dhanbad, India</li>
+               <li>Prof. Chitaranjan Tripathy, Silicon University, India</li>
             </ul>
           </div>
 
@@ -90,7 +91,6 @@ const Patrons = () => {
               <li>Prof. Bansidhar Majhi, CGU, Bhubaneswar, India</li>
               <li>Prof. Pradipta Kumar Nanda , SoA, Bhubaneswar, India</li>
               <li>Prof. Debi Prosad Dogra, IIT, Bhubaneswar, India</li>
-              <li>Prof. Chitaranjan TTripathy, Silicon University, India</li>
               <li>Prof. Durga Prasad Mohapatra, NIT, Rourkela, India</li>
             </ul>
           </div>
