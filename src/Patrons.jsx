@@ -43,9 +43,7 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. Mukti Kanta Mishra, President, CUTM, Odisha,India</li>
-              <li>
-                Prof. D.N.Rao, Vice-President, CUTM, Odisha,India
-              </li>
+              <li>Prof. D.N.Rao, Vice-President, CUTM, Odisha,India</li>
             </ul>
           </div>
 
@@ -53,7 +51,7 @@ const Patrons = () => {
             <h3 className="text-2xl font-bold text-slate-900 mb-2">Patron:</h3>
             <ul className="list-disc list-inside">
               <li>
-                Prof. Supriya Pattnaik, Vice-Chancellor, CUTM, Odisha,India   
+                Prof. Supriya Pattnaik, Vice-Chancellor, CUTM, Odisha,India
               </li>
               <li>Prof. Anita Patra, Registrar, CUTM, Odisha,India</li>
               <li>Prof. Jagannath Padhi, Director, CUTM, Odisha,India</li>
@@ -63,7 +61,7 @@ const Patrons = () => {
               </li>
               <li>
                 Prof. Ajay Kumar Nayak, Pro-Vice-Chancellor (Administrative),
-                CUTM, Odisha,India  
+                CUTM, Odisha,India
               </li>
             </ul>
           </div>
@@ -73,11 +71,19 @@ const Patrons = () => {
               Honorary Chairs:
             </h3>
             <ul className="list-disc list-inside space-y-1">
-              <li>Prof. Ganapati Panda, Ex Director, IIT Bhubaneswar, India</li>
-              <li>Prof. Ashutosh Dutta, Johns Hopkins University, USA</li>
-              <li>Prof. Subhransu Sekhar Samantray, IIT Bhubaneswar, India </li>
-              <li>Prof. Sukumar Mishra, IIT Dhanbad, India</li>
-               <li>Prof. Chitaranjan Tripathy, Silicon University, India</li>
+              <li>Prof. Ganapati Panda, Ex Director, IIT BBSR</li>
+              <li>
+                Prof. Ashutosh Dutta, Johns Hopkins University, Maryland, United
+                States
+              </li>
+              <li>Prof. S. R. Samantray, IIT BBSR</li>
+              <li>Prof. Sukumar Mishra, IIT Dhanbad</li>
+              <li>Prof. A. K. Tripathy, IEEE BBSR Section</li>
+              <li>Shri H. K. Ratha, Former Director, DRDO</li>
+              <li>Prof. Bansidhar Majhi, CGU, BBSR </li>
+              <li>Prof. P. K. Nanda, SoA, BBSR</li>
+              <li>Prof. Debi Prosad Dogra, IIT, BBSR</li>
+              <li>Prof. Renu Sharma, IEEE WIE India Council, SoA, BBSR</li>
             </ul>
           </div>
 
@@ -86,7 +92,9 @@ const Patrons = () => {
               Organizing Chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Ashok Kumar Tripathy, IEEE, Bhubaneswar Section, India</li>
+              <li>
+                Prof. Ashok Kumar Tripathy, IEEE, Bhubaneswar Section, India
+              </li>
               <li>Shri. Hare Krishna Ratha, Former Director, DRDO, India</li>
               <li>Prof. Bansidhar Majhi, CGU, Bhubaneswar, India</li>
               <li>Prof. Pradipta Kumar Nanda , SoA, Bhubaneswar, India</li>
@@ -100,8 +108,8 @@ const Patrons = () => {
               General Chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Sujata Chakravarty, CUTM, Odisha,India</li>
-              <li>Prof. Tapan Kumar Gandhi, IIT, Delhi, India</li>
+              <li>Prof. Sujata Chakravarty, CUTM, BBSR</li>
+              <li>Prof. Tapan Kumar Gandhi, IIT, Delhi</li>
             </ul>
           </div>
           <div className="mb-8">
@@ -109,8 +117,8 @@ const Patrons = () => {
               Conference Secretaries:
             </h3>
             <ul className="list-disc list-inside">
-              <li>Prof. Sudhansu Kumar Samal, CUTM, Odisha,India</li>
-              <li>Prof. Manoj Kumar Debnath, SoA, Bhubaneswar, India</li>
+              <li>Prof. S. K. Samal, CUTM, BBSR</li>
+              <li>Prof. M. K. Debnath, ITER, BBSR</li>
             </ul>
           </div>
 
@@ -119,13 +127,11 @@ const Patrons = () => {
               Publication Chairs:
             </h3>
             <ul className="list-disc list-inside">
-            <li>Prof. Sudarson Jena, SUIIT, Sambalpur University,Odisha, India</li>
               <li>
-                Prof. Ramesh Chandra Mohanty, CUTM, Odisha, India   
+                Prof. Sudarson Jena, SUIIT, Sambalpur University,Odisha, India
               </li>
-              <li>
-                Prof. Ashish Ranjan Dash, CUTM, Odisha, India
-              </li>
+              <li>Prof. Ramesh Chandra Mohanty, CUTM, Odisha, India</li>
+              <li>Prof. Ashish Ranjan Dash, CUTM, Odisha, India</li>
               <li>Prof. Tanmay Ray Chodhury, (NIT, Rourkela), India</li>
               <li>Prof. Nimay Chandra Giri, CUTM, Odisha, India</li>
               <li>Prof. Rahul Ray, CUTM, Odisha, India</li>
@@ -139,9 +145,7 @@ const Patrons = () => {
             <ul className="list-disc list-inside">
               <li>Prof. Sangam Keshari Swain, CUTM, Odisha, India</li>
               <li>Prof. Debendra Kumar Sahoo, CUTM, Odisha, India</li>
-              <li>
-                Prof. Rajendra Kumar Khadanga, CUTM, Odisha, India
-              </li>
+              <li>Prof. Rajendra Kumar Khadanga, CUTM, Odisha, India</li>
               <li>Prof. Satyasis Mishra, CUTM, Odisha, India</li>
               <li>Prof. Chinmayee Dora, CUTM, Odisha, India</li>
               <li>Prof. Sunil Kumar Mohapatra, CUTM, Odisha, India</li>
@@ -178,7 +182,7 @@ const Patrons = () => {
               Technical Program Committee:
             </h3>
             <ul className="list-disc list-inside">
-            <li>Prof. B. K. Panigrahi, IIT, Delhi, India</li>
+              <li>Prof. B. K. Panigrahi, IIT, Delhi, India</li>
               <li>Prof. Dipayan Gulia, NfT Allahabad, India</li>
               <li>Prof. Abhishek Dey, (NIT, Rourkela), India</li>
               <li>Prof. Renu Sharma, (ITER, BBSR), India</li>
@@ -196,7 +200,8 @@ const Patrons = () => {
               <li>Prof. Trilocahn Penthia, NIT, Patna, India</li>
               <li>Prof. Sudarshan Swain, BITS Pilani, GOA Campus, India</li>
               <li>
-                Prof. Biranchi Narayan Ratha, Silicon University, Bhubaneswar, India
+                Prof. Biranchi Narayan Ratha, Silicon University, Bhubaneswar,
+                India
               </li>
               <li>Prof. Brojo Kishore Mishra, NIST, Odisha, India</li>
               <li>Prof. Mamata Wagh, CGU, India</li>
@@ -204,7 +209,10 @@ const Patrons = () => {
               <li>Prof. Sanjaya Kumar Panda, NIT, Warangal, India</li>
               <li>Prof. Sanjib Kumar Nayak, VSSUT, Burla, India</li>
               <li>Prof. Atul Vikas Lakra, VSSUT, Burla, India</li>
-              <li>Prof. Santosh Kumar Majhi, Guru Ghasidas Vishwavidyalaya Bilaspur,India</li>
+              <li>
+                Prof. Santosh Kumar Majhi, Guru Ghasidas Vishwavidyalaya
+                Bilaspur,India
+              </li>
             </ul>
           </div>
           <div className="mb-8">
@@ -244,9 +252,7 @@ const Patrons = () => {
               Student Activity and Awards chairs:
             </h3>
             <ul className="list-disc list-inside">
-              <li>
-                Prof. Rama Prasanna Dalai, CUTM, Odisha, India 
-              </li>
+              <li>Prof. Rama Prasanna Dalai, CUTM, Odisha, India</li>
               <li>Prof. Satyananda Swain, CUTM, Odisha, India</li>
               <li>Prof. Biranchi Prasad Mishra, CUTM, Odisha, India</li>
             </ul>
