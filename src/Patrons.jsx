@@ -118,7 +118,7 @@ const Patrons = () => {
             </h3>
             <ul className="list-disc list-inside">
               <li>Prof. S. K. Samal, CUTM, BBSR</li>
-              <li>Prof. M. K. Debnath, ITER, BBSR</li>
+              <li>Prof. M. K. Debnath, SOA, BBSR</li>
             </ul>
           </div>
 
