@@ -50,14 +50,7 @@ const PublicationAndTemp = () => {
             indexed by <span className="font-semibold">Scopus</span> and
             <span className="font-semibold"> Google Scholar</span>.  
             <br /><br />
-            <span className="font-semibold">20% selected papers</span> will also be
-            considered for extended publication in the
-            <span className="font-semibold">
-              {" "}IEEE Transactions on Industry Applications
-            </span> or
-            <span className="font-semibold">
-              {" "}IEEE Industry Applications Magazine
-            </span>.
+            
           </p>
         </div>
 
