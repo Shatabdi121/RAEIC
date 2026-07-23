@@ -40,12 +40,12 @@ const Footer = () => {
 
               <p>
                 <strong>Email:</strong>{" "}
-                <span className="text-blue-800">sudhansu.samal@cutm.ac.in</span>
+                <span className="text-blue-800">aisighsd2026@cutm.ac.in</span>
               </p>
 
               <p>
                 <strong>Contact:</strong>{" "}
-                <span className="text-blue-800">+91-9778118876</span>
+                <span className="text-blue-800">+91-9437376421</span>
               </p>
 
               <p>
