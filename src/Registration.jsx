@@ -1,5 +1,7 @@
 import React from 'react';
 import Carouselcard from "./Carouselcard";
+import qrcode from "../src/assets/qr-code.png"
+
 
 const Registration = () => {
   return (
@@ -103,7 +105,7 @@ const Registration = () => {
             <div className="flex flex-col items-center text-center">
               <div className="w-48 h-48 bg-white border border-slate-300 rounded-lg p-2 flex items-center justify-center shadow-sm">
                 <img
-                  src="/path-to-your-qr-code.png"
+                  src={qrcode}
                   alt="Payment QR Code"
                   className="w-full h-full object-contain"
                 />
