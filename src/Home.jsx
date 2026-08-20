@@ -522,7 +522,7 @@ const Home = () => {
                         <td class="py-4 px-4 border-r border-gray-500">
                           Date of Conference
                         </td>
-                        <td class="py-4 px-4">28/12/2026</td>
+                        <td class="py-4 px-4">28/12/2026 - 30/12/2026</td>
                       </tr>
                     </tbody>
                   </table>
