@@ -136,7 +136,7 @@ const CallForPapers = () => {
           <p className="mb-6 text-lg">
             All accepted and presented papers will be published in e-proceedings
             and submitted to the IEEE Xplore Digital Library, indexed by Scopus
-            and Google Scholar.
+            and Google Scholar. Accepted papers will be published online in IEEE Xplore Digital Library within 30 days of the conference.
           </p>
           <h3 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
             CMT ACKNOWLEDGMENT:
