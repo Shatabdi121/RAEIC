@@ -160,14 +160,14 @@ const Registration = () => {
 
             <li>
               Please include <strong>18% GST</strong> on the total registration amount
-              while making the payment. For example, if the registration fee is INR xxxxxx,
-              the total payable amount including GST is INR xxxxxx.
+              while making the payment. For example, if the registration fee is INR 7000,
+              the total payable amount including GST is INR 8260.
             </li>
 
             <li>
               Manuscripts may contain six pages. Up to two (2) additional pages are
-              permissible with over-length page charges (₹xxxx/page for Indian authors
-              and USD 50/page for abroad). The maximum number of pages allowed is eight
+              permissible with over-length page charges (₹500/page for Indian authors
+              and USD 5/page for abroad). The maximum number of pages allowed is eight
               (8).
             </li>
 
@@ -207,7 +207,7 @@ const Registration = () => {
               There is no refund against cancellation.
             </li>
             <li>
-              For any problem/query in registration please contact: xxxxxx@gmail.com, +91-xxxxxxxxxx
+              For any problem/query in registration please contact: aisighsd2026@gmail.com, +91-8249128349
             </li>
           </ul>
         </div>

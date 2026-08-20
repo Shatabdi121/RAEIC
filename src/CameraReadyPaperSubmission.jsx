@@ -48,8 +48,8 @@ const CameraReadyPaperSubmission = () => {
 
         <ol className="list-decimal list-inside mt-4 space-y-2">
           <li>
-            The similarity index of your paper must be less than 30%, including
-            references. If the plagiarism exceeds 30%, your paper will not be
+            The similarity index of your paper must be less than 25%, including
+            references. If the plagiarism exceeds 25%, your paper will not be
             forwarded for publication in IEEE Xplore.
           </li>
 
