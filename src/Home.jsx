@@ -162,6 +162,12 @@ const Home = () => {
             >
               Centurion University of Technology and Management
             </p>
+            <span
+              data-aos="fade-up"
+              className="inline-block py-1 px-4 rounded-full bg-blue-100 text-blue-900 text-sm font-semibold mb-4 hover:bg-blue-200 transition-colors duration-300"
+            >
+              🌐 Hybrid Mode
+            </span>
           </div>
         </section>
       </div>

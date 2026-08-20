@@ -207,7 +207,7 @@ const Registration = () => {
               There is no refund against cancellation.
             </li>
             <li>
-              For any problem/query in registration please contact: aisighsd2026@gmail.com, +91-8249128349
+              For any problem/query in registration please contact: aisighsd2026@gmail.com, +91-8249128349 ,  +91- 9040939255
             </li>
           </ul>
         </div>

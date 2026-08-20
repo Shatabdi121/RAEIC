@@ -49,8 +49,7 @@ const CameraReadyPaperSubmission = () => {
         <ol className="list-decimal list-inside mt-4 space-y-2">
           <li>
             The similarity index of your paper must be less than 25%, including
-            references. If the plagiarism exceeds 25%, your paper will not be
-            forwarded for publication in IEEE Xplore.
+            references. Please ensure that the overall similarity index is below 25% (with references), as verified using standard plagiarism detection tools (e.g., Turnitin). AI-generated content must be less than 20%. Papers exceeding these limits will not be included in the IEEE Xplore proceedings, and registration fees will not be refunded under any circumstances.
           </li>
 
           <li>
