@@ -34,7 +34,7 @@ const Registration = () => {
       <div className="min-h-screen bg-[#E7ECFF] p-6">
         <div className="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between gap-4 mb-6">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSctfMkpONaUEJy2flimqaK1KXtDLm2KwXmWvqm9IBlujyERHw/viewform?usp=header"
+            href="https://forms.gle/eFNAa3H4Qg13kfyn8"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -43,7 +43,7 @@ const Registration = () => {
             </button>
           </a>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSebhhzaq8m5mstHLOyQdiE4gA0dfYEXHd1wgngptwdia-t1gQ/viewform?usp=header"
+            href="https://forms.gle/m2pqtU4VQpujxFMU8"
             target="_blank"
             rel="noopener noreferrer"
           >
