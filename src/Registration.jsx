@@ -174,7 +174,7 @@ const Registration = () => {
             <li>
               After completing the payment, authors must fill out the Google Form at{" "}
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSctfMkpONaUEJy2flimqaK1KXtDLm2KwXmWvqm9IBlujyERHw/viewform?usp=header"
+                href="https://forms.gle/eFNAa3H4Qg13kfyn8"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-600 font-medium no-underline"
@@ -189,7 +189,7 @@ const Registration = () => {
               conference, please register as an attendee by paying the applicable fee
               and filling out the attendee registration form at{" "}
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSebhhzaq8m5mstHLOyQdiE4gA0dfYEXHd1wgngptwdia-t1gQ/viewform?usp=header"
+                href="https://forms.gle/m2pqtU4VQpujxFMU8"
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-600 font-medium no-underline"
