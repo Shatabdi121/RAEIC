@@ -491,7 +491,7 @@ const Home = () => {
                           Paper Submission Deadline
                         </td>
                         <td class="py-2 px-4 border-b border-gray-500">
-                          15/09/2026
+                            <strike>15/09/2026</strike>  &nbsp;<b>30/09/2026</b>
                         </td>
                       </tr>
                       <tr>
