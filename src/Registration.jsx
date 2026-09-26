@@ -166,8 +166,8 @@ const Registration = () => {
 
             <li>
               Manuscripts may contain six pages. Up to two (2) additional pages are
-              permissible with over-length page charges (₹500/page for Indian authors
-              and USD 5/page for abroad). The maximum number of pages allowed is eight
+              permissible with over-length page charges (₹1000/page for Indian authors
+              and USD 10/page for abroad). The maximum number of pages allowed is eight
               (8).
             </li>
 
