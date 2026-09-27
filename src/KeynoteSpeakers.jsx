@@ -4,8 +4,9 @@ import speaker1Img from '../src/assets/keynoteSpaker1.png';
 import speaker2Img from '../src/assets/keynoteSpeaker2.png';
 import speaker3Img from '../src/assets/keynoteSpeaker3.png';
 import speaker4Img from '../src/assets/keynoteSpeaker4.png';
+import speaker5Img from '../src/assets/keynoteSpeaker5.jpeg';
 
-// Sample Data with dynamic accent colors per speaker
+// Dynamic accent colors per speaker - each speaker has a unique palette
 const speakersData = [
   {
     id: 1,
@@ -36,13 +37,22 @@ const speakersData = [
   },
   {
     id: 4,
-    name: "Ms. PADMAJA PULIVARTHY",
+    name: "Ms. Padmaja Pulivarthy",
     title: "Enterprise Data Systems Architect, Sr Software Engineer, Samsung Semiconductor, United States",
     image: speaker3Img,
-    gradient: "from-purple-600 via-pink-600 to-rose-500",
-    glow: "group-hover:shadow-purple-500/30",
-    borderGlow: "group-hover:border-purple-400"
+    gradient: "from-fuchsia-600 via-pink-600 to-rose-500",
+    glow: "group-hover:shadow-fuchsia-500/30",
+    borderGlow: "group-hover:border-fuchsia-400"
   },
+  {
+    id: 5,
+    name: "Dr. Rasmita Samantaray",
+    title: "Hyundai motor Europe, Senior Engineer",
+    image: speaker5Img,
+    gradient: "from-violet-600 via-purple-600 to-indigo-600",
+    glow: "group-hover:shadow-violet-500/30",
+    borderGlow: "group-hover:border-violet-400"
+  }
 ];
 
 const KeynoteSpeakers = () => {
@@ -72,16 +82,16 @@ const KeynoteSpeakers = () => {
 
           {/* MAIN HEADING */}
           <h1
-          className="text-4xl md:text-5xl lg:text-6xl font-extrabold
-          text-transparent bg-clip-text
-          bg-gradient-to-r from-pink-400 via-yellow-300 to-blue-400"
-          style={{
-            textShadow:
-              "2px 2px 0 rgba(0,0,0,0.5), 4px 4px 0 rgba(0,0,0,0.4)",
-          }}
-        >
-        KEYNOTE SPEAKER
-        </h1>
+            className="text-4xl md:text-5xl lg:text-6xl font-extrabold
+            text-transparent bg-clip-text
+            bg-gradient-to-r from-pink-400 via-yellow-300 to-blue-400"
+            style={{
+              textShadow:
+                "2px 2px 0 rgba(0,0,0,0.5), 4px 4px 0 rgba(0,0,0,0.4)",
+            }}
+          >
+            KEYNOTE SPEAKERS
+          </h1>
 
           {/* SUBTITLE */}
           <p className="text-xs sm:text-sm md:text-base text-slate-200 max-w-2xl font-normal leading-relaxed opacity-90">
@@ -91,7 +101,7 @@ const KeynoteSpeakers = () => {
       </section>
 
       {/* ===== SPEAKERS GRID ===== */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 sm:gap-8">
         {speakersData.map((speaker, index) => (
           <div
             key={speaker.id}
@@ -115,7 +125,6 @@ const KeynoteSpeakers = () => {
                   />
                 </div>
               </div>
-
             </div>
 
             {/* SPEAKER INFO */}
