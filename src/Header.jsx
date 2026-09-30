@@ -272,26 +272,27 @@ const Header = () => {
         </div>
       </nav>
 
-      {/* DEADLINE MARQUEE */}
-      <div
-        className="mt-20 overflow-hidden bg-blue-700 py-2 text-sm font-semibold text-white"
-        role="status"
-        aria-label="Deadline announcement"
-      >
-        <div className="flex w-max gap-155 animate-[deadline-marquee_20s_linear_infinite] motion-reduce:animate-none">
-          <span className="px-8 tracking-widest">
-            📢 FINAL EXTENSION OF PAPER SUBMISSION DEADLINE: 10 OCTOBER 2026 | NO FURTHER EXTENSION WILL BE GRANTED.
-          </span>
-          <span className="px-8 tracking-widest" aria-hidden="true">
-            📢 FINAL EXTENSION OF PAPER SUBMISSION DEADLINE: 10 OCTOBER 2026 | NO FURTHER EXTENSION WILL BE GRANTED.
-          </span>
-        </div>
-        <style>{`
-          @keyframes deadline-marquee {
-            to { transform: translateX(-80%); }
-          }
-        `}</style>
-      </div>
+     {/* DEADLINE MARQUEE */}
+<div
+  className="mt-20 overflow-hidden bg-blue-700 py-2 text-sm font-semibold text-white"
+  role="status"
+  aria-label="Deadline announcement"
+>
+  <div className="flex w-max flex-nowrap animate-[deadline-marquee_20s_linear_infinite] motion-reduce:animate-none">
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap">
+      📢 FINAL EXTENSION OF PAPER SUBMISSION DEADLINE: 10 OCTOBER 2026 | NO FURTHER EXTENSION WILL BE GRANTED.
+    </span>
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap" aria-hidden="true">
+      📢 FINAL EXTENSION OF PAPER SUBMISSION DEADLINE: 10 OCTOBER 2026 | NO FURTHER EXTENSION WILL BE GRANTED.
+    </span>
+  </div>
+  <style>{`
+    @keyframes deadline-marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+  `}</style>
+</div>
     </>
   );
 };
