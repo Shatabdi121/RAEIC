@@ -5,11 +5,41 @@ import speaker2Img from '../src/assets/keynoteSpeaker2.png';
 import speaker3Img from '../src/assets/keynoteSpeaker3.png';
 import speaker4Img from '../src/assets/keynoteSpeaker4.png';
 import speaker5Img from '../src/assets/keynoteSpeaker5.jpeg';
-
+import newSpeaker from '../src/assets/newSpeaker.png'
+import newSpeaker2 from '../src/assets/newSpeaker2.png'
+import newSpeaker3 from '../src/assets/newSpeaker3.png'
+import newSpeaker4 from '../src/assets/newSpeaker4.png'
 // Dynamic accent colors per speaker - each speaker has a unique palette
 const speakersData = [
   {
     id: 1,
+    name: "Dr. Suman Sourav",
+    title: ",Aalborg University, Denmark",
+    image: newSpeaker,
+    gradient: "from-amber-500 via-orange-500 to-red-500",
+    glow: "group-hover:shadow-amber-500/30",
+    borderGlow: "group-hover:border-amber-400"
+  },
+  {
+    id: 2,
+    name: "Sangita Satapathy",
+    title: "Senior Cloud Platform Engineer, Royal Sutton Coldfield, England, United Kingdom",
+    image: newSpeaker2,
+    gradient: "from-blue-600 via-indigo-600 to-purple-600",
+    glow: "group-hover:shadow-blue-500/30",
+    borderGlow: "group-hover:border-blue-400"
+  },
+  {
+    id: 3,
+    name: "Dr. Bhabendu Mohanta",
+    title: "United Arab Emirates University, UAE",
+    image: newSpeaker3,
+    gradient: "from-emerald-500 via-teal-600 to-cyan-600",
+    glow: "group-hover:shadow-emerald-500/30",
+    borderGlow: "group-hover:border-emerald-400"
+  },
+  {
+    id: 4,
     name: "Prof. Ganapati Panda",
     title: "Research Advisor, CGU, Odisha, Former Deputy Director of IIT, Bhubaneswar, India",
     image: speaker4Img,
@@ -18,7 +48,7 @@ const speakersData = [
     borderGlow: "group-hover:border-amber-400"
   },
   {
-    id: 2,
+    id: 5,
     name: "Prof. (Dr.) Keshab K. Parhi",
     title: "University of Minnesota Erwin A. Kelen Chair in Electrical Engineering, United States",
     image: speaker1Img,
@@ -27,7 +57,7 @@ const speakersData = [
     borderGlow: "group-hover:border-blue-400"
   },
   {
-    id: 3,
+    id: 6,
     name: "Dr. Akshaya Kumar Moharana",
     title: "EEPlus, Inc., Engineering consultant, in Irving, Texas, United States",
     image: speaker2Img,
@@ -36,7 +66,7 @@ const speakersData = [
     borderGlow: "group-hover:border-emerald-400"
   },
   {
-    id: 4,
+    id: 7,
     name: "Ms. Padmaja Pulivarthy",
     title: "Enterprise Data Systems Architect, Sr Software Engineer, Samsung Semiconductor, United States",
     image: speaker3Img,
@@ -45,13 +75,22 @@ const speakersData = [
     borderGlow: "group-hover:border-fuchsia-400"
   },
   {
-    id: 5,
+    id: 8,
     name: "Dr. Rasmita Samantaray",
-    title: "Hyundai motor Europe, Senior Engineer",
+    title: "Senior Engineer, Hyundai Motor Europe Technical Centre, Germany",
     image: speaker5Img,
     gradient: "from-violet-600 via-purple-600 to-indigo-600",
     glow: "group-hover:shadow-violet-500/30",
     borderGlow: "group-hover:border-violet-400"
+  },
+  {
+    id: 9,
+    name: "Dr. Suchismita Chinara",
+    title: "NIT Rourkela",
+    image: newSpeaker4,
+    gradient: "from-fuchsia-600 via-pink-600 to-rose-500",
+    glow: "group-hover:shadow-fuchsia-500/30",
+    borderGlow: "group-hover:border-fuchsia-400"
   }
 ];
 
