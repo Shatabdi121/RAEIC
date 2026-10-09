@@ -14,7 +14,7 @@ const speakersData = [
   {
     id: 1,
     name: "Dr. Suman Sourav",
-    title: ",Aalborg University, Denmark",
+    title: "Aalborg University, Denmark",
     image: newSpeaker,
     gradient: "from-amber-500 via-orange-500 to-red-500",
     glow: "group-hover:shadow-amber-500/30",
