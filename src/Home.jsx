@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useEffect } from "react";
 import Carousel from "./Carousel";
 import { Link } from "react-router-dom";
 import lingaraj from "../src/assets/lingaraj.jpg";
@@ -10,18 +10,13 @@ import puri from "../src/assets/puri.jpg";
 import rajarani from "../src/assets/rajarani.jpg";
 import zoo from "../src/assets/zoo.jpg";
 import map from "../src/assets/map.jpg";
-import logo from "../src/assets/logo.jpg";
-import cs from "../src/assets/cs.jpeg";
-import logo2 from "../src/assets/logo2.jpg";
 import logo1 from "../src/assets/logo1.jpg";
 import logo6 from "../src/assets/logo6.jpeg";
 import logo7 from "../src/assets/logo7.jpeg";
 import conf from "../src/assets/conf-optimized.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 const Home = () => {
-  const [activeTab, setActiveTab] = useState("day1");
   const places = [
     {
       name: "Lingaraj Temple",
@@ -78,30 +73,6 @@ const Home = () => {
       distance: "4 KM",
       history:
         "Stunning 11th-century temple built with red and yellow sandstone.",
-    },
-  ];
-
-  // --- MOCK DATA ---
-  const schedule = [
-    //  {
-    //   title: "Call for Papers Opens",
-    //   date: "20th January",
-    // },
-    {
-      title: " Submission Deadline",
-      date: "30th Aug",
-    },
-    {
-      title: " Acceptance Notification",
-      date: "15th Oct",
-    },
-    // {
-    //   title: "Last Submission Deadline",
-    //   date: "17th September",
-    // },
-    {
-      title: "Registration",
-      date: "10th Nov",
     },
   ];
 

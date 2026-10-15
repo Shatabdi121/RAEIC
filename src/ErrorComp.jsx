@@ -1,4 +1,27 @@
-import React, { useState, useEffect, Fragment } from 'react';
+import { useState, useEffect, Fragment } from 'react';
+
+const calculateTimeLeft = (expiryDate) => {
+  const difference = +expiryDate - +new Date();
+  if (difference <= 0) return {};
+
+  return {
+    days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+    hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+    minutes: Math.floor((difference / 1000 / 60) % 60),
+    seconds: Math.floor((difference / 1000) % 60),
+  };
+};
+
+const TimeBlock = ({ value, label }) => (
+  <div className="flex flex-col items-center bg-white rounded-xl p-4 w-20 sm:w-24 border border-gray-200 shadow-sm md:shadow-md">
+    <span className="text-3xl sm:text-4xl font-extrabold text-gray-900">
+      {value < 10 ? `0${value}` : value}
+    </span>
+    <span className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider font-medium mt-2">
+      {label}
+    </span>
+  </div>
+);
 
 const ErrorComp = () => {
   // --- COUNTDOWN LOGIC ---
@@ -9,42 +32,15 @@ const ErrorComp = () => {
     return date;
   });
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-  function calculateTimeLeft() {
-    const difference = +expiryDate - +new Date();
-    let timeLeft = {};
-
-    if (difference > 0) {
-      timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
-      };
-    }
-    return timeLeft;
-  }
+  const [timeLeft, setTimeLeft] = useState(() => calculateTimeLeft(expiryDate));
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft(expiryDate));
     }, 1000);
-    return () => clearTimeout(timer);
-  });
+    return () => clearInterval(timer);
+  }, [expiryDate]);
   // -----------------------
-
-  // Light Theme Time Block
-  const TimeBlock = ({ value, label }) => (
-    <div className="flex flex-col items-center bg-white rounded-xl p-4 w-20 sm:w-24 border border-gray-200 shadow-sm md:shadow-md">
-      <span className="text-3xl sm:text-4xl font-extrabold text-gray-900">
-        {value < 10 ? `0${value}` : value}
-      </span>
-      <span className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider font-medium mt-2">
-        {label}
-      </span>
-    </div>
-  );
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gray-50 font-sans">

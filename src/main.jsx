@@ -1,36 +1,18 @@
 
 import "aos/dist/aos.css";
 
-import React from "react";
 import ReactDOM from "react-dom/client";
 // import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
-import { RouterProvider, createHashRouter, Outlet } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 
 import "./styles/index.css"; // path must match your file
 
-import Header from "./Header.jsx";
-import Footer from "./Footer.jsx";
+import App, { Loading } from "./App.jsx";
 import ErrorComp from "./ErrorComp.jsx";
 
 const lazyPage = (loadPage) => async () => {
   const { default: Component } = await loadPage();
   return { Component };
-};
-
-const Loading = () => (
-  <main className="min-h-screen grid place-items-center text-slate-600">
-    Loading conference information...
-  </main>
-);
-
-const App = () => {
-  return (
-    <div className="min-h-screen bg-white text-slate-800 font-sans">
-      <Header />
-      <Outlet />
-      <Footer />
-    </div>
-  );
 };
 
 const AppRouter = createHashRouter([
