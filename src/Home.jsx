@@ -16,7 +16,7 @@ import logo2 from "../src/assets/logo2.jpg";
 import logo1 from "../src/assets/logo1.jpg";
 import logo6 from "../src/assets/logo6.jpeg";
 import logo7 from "../src/assets/logo7.jpeg";
-import conf from "../src/assets/conf.jpg";
+import conf from "../src/assets/conf-optimized.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -179,6 +179,8 @@ const Home = () => {
               src={logo1}
               alt="Logo 1"
               className="w-50 h-50 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
@@ -187,6 +189,8 @@ const Home = () => {
               src={logo6}
               alt="Logo 6"
               className="w-50 h-50 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+              loading="lazy"
+              decoding="async"
             />
           </div>
 
@@ -195,6 +199,8 @@ const Home = () => {
               src={logo7}
               alt="Logo 7"
               className="w-50 h-50 object-contain border-2 border-blue-300 rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>
@@ -283,6 +289,8 @@ const Home = () => {
                 src={conf}
                 alt="Conference Vision"
                 className="w-full h-[380px] object-cover transform transition-transform duration-700 group-hover:scale-110"
+                loading="lazy"
+                decoding="async"
               />
 
               {/* Gradient Fade Overlay */}
@@ -393,6 +401,8 @@ const Home = () => {
                           src={place.image}
                           alt={place.name}
                           className="absolute inset-0 w-full h-full object-cover"
+                          loading="lazy"
+                          decoding="async"
                         />
                         <div className="absolute inset-0 bg-black/30" />
                         <div className="absolute bottom-4 left-4 right-4 text-white">

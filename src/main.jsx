@@ -10,23 +10,19 @@ import "./styles/index.css"; // path must match your file
 
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
-import Home from "./Home.jsx";
-import AboutCutm from "./AboutCutm.jsx";
-import Accomodation from "./Accomodation.jsx";
-import Allindustry from "./Allindustry.jsx";
-import Allwomen from "./Allwomen.jsx";
-import Bestpaper from "./Bestpaper.jsx";
-import Bestposter from "./Bestposter.jsx";
 import ErrorComp from "./ErrorComp.jsx";
-import CallForPapers from "./CallForPapers.jsx";
-import CameraReadyPaperSubmission from "./CameraReadyPaperSubmission.jsx";
-import KeynoteSpeakers from "./KeynoteSpeakers.jsx";
-import Patrons from "./Patrons.jsx";
-import Penalties from "./Penalties.jsx";
-import PublicationAndTemp from "./PublicationAndTemp.jsx";
-import Registration from "./Registration.jsx";
-import Sponsership from "./Sponsership.jsx";
-import WIESpeakers from "./WIESpeakers.jsx";
+
+const lazyPage = (loadPage) => async () => {
+  const { default: Component } = await loadPage();
+  return { Component };
+};
+
+const Loading = () => (
+  <main className="min-h-screen grid place-items-center text-slate-600">
+    Loading conference information...
+  </main>
+);
+
 const App = () => {
   return (
     <div className="min-h-screen bg-white text-slate-800 font-sans">
@@ -41,69 +37,70 @@ const AppRouter = createHashRouter([
   {
     path: "/",
     element: <App />,
+    HydrateFallback: Loading,
     errorElement: <ErrorComp />,
     children: [
       {
         index: true,   // ✅ better than path: "/"
-        element: <Home />,
+        lazy: lazyPage(() => import("./Home.jsx")),
       },
        {
         path: "/aboutcutm",
-        element: <AboutCutm />,
+        lazy: lazyPage(() => import("./AboutCutm.jsx")),
       },
        {
         path: "/all-industry",
-        element: <Allindustry />,
+        lazy: lazyPage(() => import("./Allindustry.jsx")),
       },
       {
 path:"/accomodation",
-element: <Accomodation/>,
+lazy: lazyPage(() => import("./Accomodation.jsx")),
       },
       { path: "/all-women",
-         element: <Allwomen />,
+         lazy: lazyPage(() => import("./Allwomen.jsx")),
        },
        { path: "/best-paper",
-         element: <Bestpaper />,
+         lazy: lazyPage(() => import("./Bestpaper.jsx")),
          },
       { path: "/best-poster",
-         element: <Bestposter />,
+         lazy: lazyPage(() => import("./Bestposter.jsx")),
          },
          {
         path: "/callForPapers",
-        element: <CallForPapers />,
+        lazy: lazyPage(() => import("./CallForPapers.jsx")),
       },
       {
         path: "/camera-ready-paper-submission",
-        element: <CameraReadyPaperSubmission />,
+        lazy: lazyPage(() => import("./CameraReadyPaperSubmission.jsx")),
       },
       {
         path: "/keynote-speakers",
-        element: <KeynoteSpeakers />,
+        lazy: lazyPage(() => import("./KeynoteSpeakers.jsx")),
       },
        {
         path: "/patrons",
-        element: <Patrons />,
+        lazy: lazyPage(() => import("./Patrons.jsx")),
       },
       {
         path: "/penalties",
-        element: <Penalties />,
+        lazy: lazyPage(() => import("./Penalties.jsx")),
       },
       {
         path: "/publication-and-templates",
-        element: <PublicationAndTemp />,
+        lazy: lazyPage(() => import("./PublicationAndTemp.jsx")),
       },
        {
         path: "/registration",
-        element: <Registration />,
+        lazy: lazyPage(() => import("./Registration.jsx")),
       },
       {
         path: "/sponsership",
-        element: <Sponsership />,
+        lazy: lazyPage(() => import("./Sponsership.jsx")),
       },
 
       {
         path: "/wie-speakers",
-        element: <WIESpeakers />,
+        lazy: lazyPage(() => import("./WIESpeakers.jsx")),
       },
     ],
   },
