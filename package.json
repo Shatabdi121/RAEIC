@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "homepage": "https://Shatabdi121.github.io/RAEIC/",
   "version": "0.0.0",
   "private": true,
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
@@ -12,15 +11,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "aos": "^2.3.4",
     "D": "^1.0.0",
     "framer-motion": "^13.4.4",
-    "gh-pages": "^6.3.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.11.0",
