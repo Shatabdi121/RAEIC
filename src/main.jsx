@@ -11,11 +11,11 @@ import "./styles/index.css"; // path must match your file
 import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Home from "./Home.jsx";
-import AboutCutm from "./Aboutcutm.jsx";
+import AboutCutm from "./AboutCutm.jsx";
 import Accomodation from "./Accomodation.jsx";
 import Allindustry from "./Allindustry.jsx";
 import Allwomen from "./Allwomen.jsx";
-import Bestpaper from "./BestPaper.jsx";
+import Bestpaper from "./Bestpaper.jsx";
 import Bestposter from "./Bestposter.jsx";
 import ErrorComp from "./ErrorComp.jsx";
 import CallForPapers from "./CallForPapers.jsx";
