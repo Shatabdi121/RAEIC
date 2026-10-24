@@ -420,7 +420,30 @@ const Home = () => {
               Paper submission & acceptance milestones
             </p>
           </div>
-
+<div className="flex w-max flex-nowrap animate-[deadline-marquee_60s_linear_infinite] motion-reduce:animate-none">
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap  text-white font-bold bg-blue-600" aria-hidden="true">
+      {/* 📢 Early Bird Registration for the conference has already begun */}
+    📢 Early Bird Registration for the conference has already begun.
+    </span>
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap text-white font-bold bg-blue-600" aria-hidden="true">
+      {/* 📢 Early Bird Registration for the conference has already begun */}
+    📢 Early Bird Registration for the conference has already begun.
+    </span>
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap text-white font-bold bg-blue-600" aria-hidden="true">
+      {/* 📢 Early Bird Registration for the conference has already begun */}
+    📢 Early Bird Registration for the conference has already begun.
+    </span>
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap text-white font-bold bg-blue-600" aria-hidden="true">
+      {/* 📢 Early Bird Registration for the conference has already begun */}
+    📢 Early Bird Registration for the conference has already begun.
+    </span>
+  </div>
+  <style>{`
+    @keyframes deadline-marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+  `}</style>
           <div class="flex items-center justify-center min-h-screen bg-gray-100 p-4">
             <div class="w-full max-max-w-md bg-gradient-to-b from-gray-200 to-gray-300 rounded-xl shadow-lg border border-gray-400 overflow-hidden">
               <div class="pt-8 pb-4 text-center">
@@ -480,7 +503,16 @@ const Home = () => {
                           Notification of Acceptance
                         </td>
                         <td class="py-4 px-4 border-b border-gray-500">
-                          15/11/2026
+                          15/08/2026 - 25/11/2026
+                        </td>
+                      </tr>
+                      
+                      <tr>
+                        <td class="py-4 px-4 border-r border-b border-gray-500">
+                       Registration & Camera Ready Copy Submission Begins
+                        </td>
+                        <td class="py-4 px-4 border-b border-gray-500">
+                          25/10/2026
                         </td>
                       </tr>
                       <tr>
@@ -490,7 +522,7 @@ const Home = () => {
                         <td class="py-4 px-4 border-b border-gray-500">
                           30/11/2026
                         </td>
-                      </tr>
+                      </tr>   
                       <tr>
                         <td class="py-4 px-4 border-r border-b border-gray-500">
                           Last Date of Registration
