@@ -117,7 +117,9 @@ const Home = () => {
               data-aos="fade-up"
               className="inline-block py-1 px-4 rounded-full bg-blue-100 text-blue-900 text-sm font-semibold mb-4 hover:bg-blue-200 transition-colors duration-300"
             >
-              Conference ID : 70672
+               <a href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/70672" className="text-blue-900 hover:text-blue-600">
+                Conference ID : 70672
+               </a>
             </span>
             {/* Heading */}
             <h1
