@@ -113,7 +113,12 @@ const Home = () => {
             >
               📍 CUTM, BBSR • December 28-30, 2026
             </span>
-
+<span
+              data-aos="fade-up"
+              className="inline-block py-1 px-4 rounded-full bg-blue-100 text-blue-900 text-sm font-semibold mb-4 hover:bg-blue-200 transition-colors duration-300"
+            >
+              Conference ID : 70672
+            </span>
             {/* Heading */}
             <h1
               data-aos="fade-right"
@@ -122,7 +127,7 @@ const Home = () => {
             >
               AI-Enabled Smart Solutions <br />
               for Industry, Governance, Healthcare <br />
-              and Sustainable Development
+            and Sustainable Development(AISIGH–SD)
             </h1>
 
             {/* Subtext */}
