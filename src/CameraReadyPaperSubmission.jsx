@@ -53,8 +53,7 @@ const CameraReadyPaperSubmission = () => {
           </li>
 
           <li>
-            Paper must be revised as per Reviewers comments available on the
-            Microsoft CMT Portal.
+            The paper must be thoroughly revised, with all typographical, spelling, and grammatical errors corrected before submitting the final camera-ready version.
           </li>
 
           <li>
