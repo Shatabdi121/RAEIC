@@ -420,7 +420,7 @@ const Home = () => {
               Paper submission & acceptance milestones
             </p>
           </div>
-<div className="flex w-max flex-nowrap animate-[deadline-marquee_60s_linear_infinite] motion-reduce:animate-none">
+<div className="flex w-max flex-nowrap animate-[deadline-marquee_20s_linear_infinite] motion-reduce:animate-none">
     <span className="shrink-0 px-8 tracking-widest whitespace-nowrap  text-white font-bold bg-blue-600" aria-hidden="true">
       {/* 📢 Early Bird Registration for the conference has already begun */}
     📢 Early Bird Registration for the conference has already begun.
@@ -440,8 +440,8 @@ const Home = () => {
   </div>
   <style>{`
     @keyframes deadline-marquee {
-      0% { transform: translateX(0%); }
-      100% { transform: translateX(-100%); }
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
     }
   `}</style>
           <div class="flex items-center justify-center min-h-screen bg-gray-100 p-4">

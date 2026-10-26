@@ -43,7 +43,7 @@ const CameraReadyPaperSubmission = () => {
       <div className="max-w-6xl mx-auto px-6 py-10 text-slate-700 leading-relaxed">
         <p>
           The authors will have to submit a camera-ready version as per the
-          following guidelines on or before 5 th Jan 2026.
+          following guidelines on or before 30th November 2026.
         </p>
 
         <ol className="list-decimal list-inside mt-4 space-y-2">
@@ -187,7 +187,7 @@ const CameraReadyPaperSubmission = () => {
           </li>
         </ol>
 
-        <h2 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
+        {/* <h2 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
           Supplementary File Upload:
         </h2>
         <p className="mb-6 text-base">
@@ -199,8 +199,8 @@ const CameraReadyPaperSubmission = () => {
           comments and the plagiarism report in that folder. Finally, upload
           this ZIP file under the Supplementary File Upload section. The last
           date for uploading the camera-ready paper and supplementary file is
-          5th Jan 2026.
-        </p>
+          30th November 2026.
+        </p> */}
 <h2 className="mt-12 mb-4 text-3xl font-extrabold text-slate-900">
           Electronic Copyright form submission:
         </h2>
