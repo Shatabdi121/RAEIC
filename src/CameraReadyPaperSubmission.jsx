@@ -69,10 +69,7 @@ const CameraReadyPaperSubmission = () => {
             ).
           </li>
 
-          <li>
-            Proofread your manuscript thoroughly to confirm that it will require
-            no revision.
-          </li>
+          
 
           <li>
             Please include the copyright notice on the left of the footer
