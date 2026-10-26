@@ -193,10 +193,10 @@ const Home = () => {
               ABOUT THE CONFERENCE
             </h2>
             <p className="max-w-4xl mx-auto text-lg text-slate-700 leading-relaxed">
-              The AI Enabled Smart Solutions for Industry, Governance,
-              Healthcare, and Sustainable Development (AISIGH–SD) 2026
-              conference, organized by Centurion University of Technology and
-              Management in collaboration with the IEEE Bhubaneswar Section, is
+              2026 International Conference on AI Enabled Smart Solutions for Industry, Governance,
+              Healthcare, and Sustainable Development (AISIGH–SD) organized by 
+              Centurion University of Technology and Management 
+              in collaboration with the IEEE Bhubaneswar Section, is
               a platform for researchers and professionals to explore
               advancements in artificial intelligence across diverse domains.
               Covering areas such as machine learning, IoT, computer vision,
