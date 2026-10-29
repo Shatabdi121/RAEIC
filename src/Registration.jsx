@@ -149,7 +149,7 @@ const Registration = () => {
               One author (Indian or Foreign, from Academia or Industry) may register a
               second paper with a <strong>50% concession</strong> on the registration
               fee. A separate registration is required for each additional paper beyond
-              the first two.
+              the first two (Authors are eligible for a 50% discount on the second paper, provided that both papers have the same authors).
             </li>
 
             <li>
