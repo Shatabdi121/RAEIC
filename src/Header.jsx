@@ -279,13 +279,13 @@ const Header = () => {
   aria-label="Deadline announcement"
 >
   <div className="flex w-max flex-nowrap animate-[deadline-marquee_20s_linear_infinite] motion-reduce:animate-none">
-    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap">
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap text-2xl" aria-hidden="true">
       {/* 📢 FINAL EXTENSION OF PAPER SUBMISSION DEADLINE: 10 OCTOBER 2026 | NO FURTHER EXTENSION WILL BE GRANTED. */}
-    📢 The review process is ongoing. Authors receiving acceptance emails (kindly check spambox also) complete registration before camera-ready submission begins from 25 October 2026.
+    📢 Authors of accepted papers are requested to complete registration by 30th November 2026.
     </span>
-    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap" aria-hidden="true">
+    <span className="shrink-0 px-8 tracking-widest whitespace-nowrap text-2xl" aria-hidden="true">
       {/* 📢 FINAL EXTENSION OF PAPER SUBMISSION DEADLINE: 10 OCTOBER 2026 | NO FURTHER EXTENSION WILL BE GRANTED. */}
-    📢 The review process is ongoing. Authors receiving acceptance emails (kindly check spambox also) complete registration before camera-ready submission begins from 25 October 2026.
+    📢 Authors of accepted papers are requested to complete registration by 30th November 2026.
     </span>
   </div>
   <style>{`
