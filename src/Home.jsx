@@ -535,7 +535,7 @@ const Home = () => {
                           Last Date of Registration
                         </td>
                         <td class="py-4 px-4 border-b border-gray-500">
-                          10/12/2026
+                          30/11/2026
                         </td>
                       </tr>
                       <tr>
