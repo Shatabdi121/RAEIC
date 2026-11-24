@@ -6,6 +6,8 @@ import speaker3Img from '../src/assets/keynoteSpeaker3.png';
 import speaker4Img from '../src/assets/keynoteSpeaker4.png';
 import speaker5Img from '../src/assets/keynoteSpeaker5.jpeg';
 import speaker10Img from '../src/assets/keynoteSpeaker10.png';
+import speaker11Img from '../src/assets/SpakerImage11.jpeg';
+import speaker12Img from '../src/assets/SpakerImage12.jpeg';
 import newSpeaker from '../src/assets/newSpeaker.png'
 import newSpeaker2 from '../src/assets/newSpeaker2.png'
 import newSpeaker3 from '../src/assets/newSpeaker3.png'
@@ -103,6 +105,22 @@ const speakersData = [
     gradient: "from-violet-600 via-purple-600 to-indigo-600",
     glow: "group-hover:shadow-violet-500/30",
     borderGlow: "group-hover:border-violet-400"
+  },{
+    id: 11,
+    name: "Prof. (Dr.) Preeti Bajaj",
+    title: " Chair-Elect IEEE India Council",
+    image: speaker11Img,
+    gradient: "from-violet-600 via-purple-600 to-indigo-600",
+    glow: "group-hover:shadow-violet-500/30",
+    borderGlow: "group-hover:border-violet-400"
+  },{
+    id: 12,
+    name: "Sumanta Kumar Panda",
+    title: "Independent Principal Consultant, Professional Engagement: Murex Product Trading & Risk Management  – Mizuho Bank, USA (Remote – UAE), Founder, Bright AI Vision",
+    image: speaker12Img,
+    gradient: "from-emerald-500 via-teal-600 to-cyan-600",
+    glow: "group-hover:shadow-emerald-500/30",
+    borderGlow: "group-hover:border-emerald-400"
   },
 ];
 
