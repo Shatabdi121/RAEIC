@@ -294,12 +294,12 @@ const PosterPresentation = () => {
               </span>
             </a>
             <a
-              href="https://aisigh-sd.co.in"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdmjCuBjgbf75siq-j2ouPBeoJLByr-K3eNhlRL8ErfSL1lNw/viewform"
               target="_blank"
               rel="noreferrer"
-              className="mt-2 text-center text-lg font-black text-[#123c7a] underline decoration-2 underline-offset-2 sm:text-xl"
+              className="mt-2 inline-flex items-center justify-center rounded-lg bg-[#123c7a] px-5 py-2.5 text-center text-lg font-black text-white shadow-sm transition-colors hover:bg-[#0e3062] focus:outline-none focus:ring-2 focus:ring-[#123c7a] focus:ring-offset-2 sm:text-xl"
             >
-              www.aisigh-sd.co.in
+              Click here to Register
             </a>
           </div>
         </section>
