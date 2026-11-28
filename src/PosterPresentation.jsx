@@ -6,6 +6,7 @@ import sdgGoal7 from "./assets/sdg-goal-7.png";
 import sdgGoal9 from "./assets/sdg-goal-9.png";
 import sdgGoal11 from "./assets/sdg-goal-11.png";
 import sdgGoal13 from "./assets/sdg-goal-13.png";
+import registrationQr from "./assets/QRCODE.jpeg";
 
 
 const Icon = ({ children, className = "" }) => (
@@ -63,9 +64,7 @@ const PrizeCard = ({ place, amount, words, color }) => (
 );
 
 const PosterPresentation = () => {
-  const registrationQr =
-    "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https%3A%2F%2Faisigh-sd.co.in%2F%23%2Fregistration";
-
+  
   return (
     <main className="bg-slate-100 px-2 py-4 sm:px-5 sm:py-8">
       <article className="mx-auto max-w-[900px] overflow-hidden rounded-2xl border border-slate-200 bg-white p-3 shadow-xl sm:p-5 lg:p-6">
