@@ -68,6 +68,10 @@ lazy: lazyPage(() => import("./Accomodation.jsx")),
         lazy: lazyPage(() => import("./Penalties.jsx")),
       },
       {
+        path: "/poster-presentation",
+        lazy: lazyPage(() => import("./PosterPresentation.jsx")),
+      },
+      {
         path: "/publication-and-templates",
         lazy: lazyPage(() => import("./PublicationAndTemp.jsx")),
       },

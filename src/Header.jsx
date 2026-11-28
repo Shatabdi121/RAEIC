@@ -40,7 +40,7 @@ const Header = () => {
             </div>
 
             {/* DESKTOP MENU */}
-            <div className="hidden md:flex items-center space-x-5">
+            <div className="hidden md:flex items-center space-x-3">
               <Link to="/" className="nav-link mr-2">HOME</Link>
 
               {/* ABOUT */}
@@ -112,7 +112,7 @@ const Header = () => {
               <Link to="/accomodation" className="nav-link">ACCOMODATION</Link>
               <HashLink smooth to="/#schedule" className="nav-link">SCHEDULE</HashLink>
               <Link to="/sponsership" className="nav-link">SPONSORSHIP</Link>
-
+              <Link to="/poster-presentation" className="nav-link whitespace-nowrap">POSTER CFP</Link>
               {/* CTA BUTTONS */}
               <Link to="/registration">
                 <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-[13px] font-semibold hover:bg-blue-900 transition">
@@ -250,6 +250,10 @@ const Header = () => {
                   {/* SPONSORSHIP */}
                   <Link to="/sponsership" className="nav-link" onClick={handleNavClick}>
                     SPONSORSHIP
+                  </Link>
+
+                  <Link to="/poster-presentation" className="nav-link whitespace-nowrap" onClick={handleNavClick}>
+                    POSTER CFP
                   </Link>
 
                   {/* CTA BUTTONS */}
